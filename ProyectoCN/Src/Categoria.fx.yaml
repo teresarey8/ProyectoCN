@@ -25,6 +25,7 @@
                 BorderColor: =RGBA(32, 54, 71, 1)
                 Color: =RGBA(0, 0, 0, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
+                Font: =Font.Verdana
                 Height: =89
                 Size: =40
                 Text: ="Proyecto SD"

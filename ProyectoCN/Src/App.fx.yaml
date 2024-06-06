@@ -1,6 +1,6 @@
 App As appinfo:
     BackEnabled: =true
-    StartScreen: ='Categoria'
+    StartScreen: =Categoria
     Theme: =PowerAppsTheme
 
     Host As hostControl.DefaultHostControlVariant:
