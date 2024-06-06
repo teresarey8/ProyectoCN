@@ -1,0 +1,171 @@
+"Subcategoria2 As screen.'phoneLayout_FluidGridWithHeaderPageLayout_ver3.0'":
+
+    Canvas4 As fluidGrid.fluidGridWithBlankCard:
+        BorderThickness: =0
+        Height: =Parent.Height - Self.Y
+        Width: =Parent.Width
+        Y: =RectQuickActionBar2.Y + RectQuickActionBar2.Height
+        ZIndex: =3
+
+        DataCard4 As dataCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            BorderThickness: =0
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =Parent.Height - 100
+            Width: =Parent.Width
+            X: =0
+            Y: =0
+            ZIndex: =1
+
+            Label2_6 As label:
+                Align: =Align.Center
+                Height: =89
+                Size: =40
+                Text: ="Proyecto SD"
+                Width: =401
+                X: =189
+                Y: =45
+                ZIndex: =1
+
+            Button1_3 As button:
+                Height: =80
+                Size: =25
+                Text: ="Añadir tarjeta  +"
+                Width: =305
+                X: =104
+                Y: =282
+                ZIndex: =2
+
+            Button2_3 As button:
+                Height: =71
+                Size: =25
+                Text: ="Filtrar"
+                Width: =212
+                X: =446
+                Y: =291
+                ZIndex: =3
+
+            Label1_3 As label:
+                Height: =101
+                Size: =40
+                Text: ="Nombre de Categoría"
+                Width: =565
+                X: =117
+                Y: =162
+                ZIndex: =17
+
+            Arrow1_3 As arrow.backArrow:
+                X: =60
+                Y: =60
+                ZIndex: =18
+
+            Rectangle1_12 As rectangle:
+                Height: =329
+                Width: =321
+                X: =410
+                Y: =395
+                ZIndex: =19
+
+            Image1_11 As image:
+                Height: =187
+                Image: =semana
+                Width: =194
+                X: =474
+                Y: =468
+                ZIndex: =20
+
+            Label3_13 As label:
+                Align: =Align.Center
+                Color: =RGBA(255, 255, 255, 1)
+                Fill: =RGBA(128, 128, 128, 1)
+                Height: =53
+                Size: =25
+                Text: ="Picto Calendario 1"
+                Width: =321
+                X: =409
+                Y: =724
+                ZIndex: =21
+
+            Rectangle1_13 As rectangle:
+                Height: =329
+                Width: =321
+                X: =40
+                Y: =395
+                ZIndex: =22
+
+            Image1_12 As image:
+                Height: =187
+                Image: =semana
+                Width: =194
+                X: =104
+                Y: =468
+                ZIndex: =23
+
+            Label3_20 As label:
+                Align: =Align.Center
+                Color: =RGBA(255, 255, 255, 1)
+                Fill: =RGBA(128, 128, 128, 1)
+                Height: =53
+                Size: =25
+                Text: ="Picto Calendario 1"
+                Width: =321
+                X: =39
+                Y: =724
+                ZIndex: =24
+
+            Rectangle1_14 As rectangle:
+                Height: =329
+                Width: =321
+                X: =409
+                Y: =810
+                ZIndex: =25
+
+            Image1_13 As image:
+                Height: =187
+                Image: =semana
+                Width: =194
+                X: =473
+                Y: =883
+                ZIndex: =26
+
+            Label3_21 As label:
+                Align: =Align.Center
+                Color: =RGBA(255, 255, 255, 1)
+                Fill: =RGBA(128, 128, 128, 1)
+                Height: =53
+                Size: =25
+                Text: ="Picto Calendario 1"
+                Width: =321
+                X: =408
+                Y: =1139
+                ZIndex: =27
+
+            Rectangle1_15 As rectangle:
+                Height: =329
+                Width: =321
+                X: =39
+                Y: =810
+                ZIndex: =28
+
+            Image1_14 As image:
+                Height: =187
+                Image: =semana
+                Width: =194
+                X: =103
+                Y: =883
+                ZIndex: =29
+
+            Label3_22 As label:
+                Align: =Align.Center
+                Color: =RGBA(255, 255, 255, 1)
+                Fill: =RGBA(128, 128, 128, 1)
+                Height: =53
+                Size: =25
+                Text: ="Picto Calendario 1"
+                Width: =321
+                X: =38
+                Y: =1139
+                ZIndex: =30
+

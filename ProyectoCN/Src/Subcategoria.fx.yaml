@@ -1,0 +1,143 @@
+"Subcategoria As screen.'phoneLayout_FluidGridWithHeaderPageLayout_ver3.0'":
+
+    Canvas3 As fluidGrid.fluidGridWithBlankCard:
+        BorderThickness: =0
+        Height: =1366
+        Width: =Parent.Width
+        Y: =RectQuickActionBar1.Y + RectQuickActionBar1.Height
+        ZIndex: =3
+
+        DataCard1 As dataCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            BorderThickness: =0
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =1374
+            Width: =Parent.Width
+            X: =0
+            Y: =0
+            ZIndex: =1
+
+            Label1_2 As label:
+                Height: =124
+                Size: =40
+                Text: ="Nombre de Categoría"
+                Width: =582
+                X: =104
+                Y: =136
+                ZIndex: =1
+
+            Rectangle3_2 As rectangle:
+                Height: =268
+                Width: =628
+                X: =81
+                Y: =316
+                ZIndex: =2
+
+            Image3_1 As image:
+                Height: =212
+                Image: =deporte
+                Width: =408
+                X: =191
+                Y: =344
+                ZIndex: =3
+
+            Label5_2 As label:
+                Align: =Align.Center
+                Color: =RGBA(255, 255, 255, 1)
+                Fill: =RGBA(128, 128, 128, 1)
+                Height: =46
+                Size: =25
+                Text: |-
+                    ="Subcategoría
+                    "
+                Width: =628
+                X: =81
+                Y: =584
+                ZIndex: =4
+
+            Arrow1_2 As arrow.backArrow:
+                X: =40
+                Y: =40
+                ZIndex: =7
+
+            Label2_5 As label:
+                Align: =Align.Center
+                Height: =89
+                Size: =40
+                Text: ="Proyecto SD"
+                Width: =401
+                X: =186
+                Y: =45
+                ZIndex: =8
+
+            Rectangle3_3 As rectangle:
+                Height: =268
+                Width: =628
+                X: =81
+                Y: =688
+                ZIndex: =9
+
+            Image3_2 As image:
+                Height: =212
+                Image: =deporte
+                Width: =408
+                X: =191
+                Y: =716
+                ZIndex: =10
+
+            Label5_3 As label:
+                Align: =Align.Center
+                Color: =RGBA(255, 255, 255, 1)
+                Fill: =RGBA(128, 128, 128, 1)
+                Height: =46
+                Size: =25
+                Text: |-
+                    ="Subcategoría
+                    "
+                Width: =628
+                X: =81
+                Y: =956
+                ZIndex: =11
+
+            Rectangle3_4 As rectangle:
+                Height: =268
+                Width: =628
+                X: =81
+                Y: =1060
+                ZIndex: =12
+
+            Image3_3 As image:
+                Height: =212
+                Image: =deporte
+                Width: =408
+                X: =191
+                Y: =1088
+                ZIndex: =13
+
+            Label5_4 As label:
+                Align: =Align.Center
+                Color: =RGBA(255, 255, 255, 1)
+                Fill: =RGBA(128, 128, 128, 1)
+                Height: =46
+                Size: =25
+                Text: |-
+                    ="Subcategoría
+                    "
+                Width: =628
+                X: =81
+                Y: =1328
+                ZIndex: =14
+
+        DataCard9 As dataCard.blankCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =100
+            Width: =768
+            X: =0
+            Y: =1
+            ZIndex: =2
+
