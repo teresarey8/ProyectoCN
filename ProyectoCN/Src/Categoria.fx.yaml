@@ -172,6 +172,40 @@
             Y: =1
             ZIndex: =3
 
+        DataCard5 As dataCard.blankCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =100
+            Width: =768
+            X: =0
+            Y: =2
+            ZIndex: =4
+
+            Label1 As label:
+                BorderColor: =RGBA(32, 54, 71, 1)
+                Color: =RGBA(0, 0, 0, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Height: =60
+                Size: =15
+                Text: ="13000220.ies@edu.jccm.es"
+                Width: =409
+                X: =10
+                Y: =40
+                ZIndex: =1
+
+            Label2 As label:
+                BorderColor: =RGBA(32, 54, 71, 1)
+                Color: =RGBA(0, 0, 0, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Size: =13
+                Text: ="IES JUAN BOSCO"
+                Width: =165
+                X: =279
+                Y: =40
+                ZIndex: =2
+
     Button1_5 As button:
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
