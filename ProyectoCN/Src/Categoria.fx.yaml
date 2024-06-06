@@ -31,6 +31,7 @@
 
             Button1_2 As button:
                 Height: =96
+                OnSelect: =Navigate(Subcategoria,ScreenTransition.Cover)
                 Size: =25
                 Text: ="Añadir tarjeta  +"
                 Width: =328
