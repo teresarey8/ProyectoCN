@@ -100,7 +100,7 @@
       "zeroalltabindexes": true
     },
     "Author": "",
-    "BindingErrorCount": 16,
+    "BindingErrorCount": 20,
     "ContainsThirdPartyPcfControls": false,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "DesktopOrTablet",
@@ -135,6 +135,7 @@
   },
   "ScreenOrder": [
     "Categoria",
+    "Categoria_backUp",
     "Subcategoria",
     "Subcategoria2",
     "frases"
