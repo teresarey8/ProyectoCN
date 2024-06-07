@@ -1,4 +1,4 @@
-"Subcategoria2 As screen.'phoneLayout_FluidGridWithHeaderPageLayout_ver3.0'":
+"Pictogramas As screen.'phoneLayout_FluidGridWithHeaderPageLayout_ver3.0'":
     LoadingSpinnerColor: =RGBA(100, 118, 132, 1)
 
     Canvas4 As fluidGrid.fluidGridWithBlankCard:
