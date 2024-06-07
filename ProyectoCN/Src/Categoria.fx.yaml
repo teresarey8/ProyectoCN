@@ -2,6 +2,72 @@
     ImagePosition: =ImagePosition.Center
     LoadingSpinnerColor: =RGBA(100, 118, 132, 1)
 
+    "Gallery2 As gallery.'BrowseLayout_Vertical_TwoTextOneImageTwoColumnVariant_ver5.0'":
+        BorderColor: =RGBA(32, 54, 71, 1)
+        DelayItemLoading: =true
+        Height: =765
+        Items: =Categorias
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        TemplatePadding: =0
+        TemplateSize: =Min(416, Self.Height - 60)
+        Width: =768
+        WrapCount: =2
+        Y: =395
+        ZIndex: =1
+
+        Image3 As image:
+            BorderColor: =RGBA(32, 54, 71, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            Height: =Min(Self.Width, Parent.TemplateHeight - 115)
+            Image: =ThisItem.img
+            ImagePosition: =ImagePosition.Fill
+            OnSelect: =Select(Parent)
+            RadiusBottomLeft: =8
+            RadiusBottomRight: =8
+            RadiusTopLeft: =8
+            RadiusTopRight: =8
+            Width: =Parent.TemplateWidth - 32
+            X: =16
+            Y: =16
+            ZIndex: =1
+
+        Title3 As label:
+            Color: =RGBA(50, 49, 48, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.Título
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth - 64
+            X: =32
+            Y: =Image3.Y + Image3.Height + 16
+            ZIndex: =2
+
+        Subtitle3 As label:
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =12
+            Text: =ThisItem.Color
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Title3.Width
+            X: =Title3.X
+            Y: =Title3.Y + Title3.Height + 8
+            ZIndex: =3
+
     Canvas2 As fluidGrid.fluidGridWithBlankCard:
         BorderThickness: =0
         Height: =Parent.Height - Self.Y
@@ -49,8 +115,8 @@
                 Size: =25
                 Text: ="Añadir tarjeta  +"
                 Width: =328
-                X: =88
-                Y: =207
+                X: =204
+                Y: =206
                 ZIndex: =2
 
             Icon1_2 As icon.OptionsList:
@@ -67,14 +133,14 @@
                 DisabledFill: =RGBA(244, 244, 244, 1)
                 Fill: =RGBA(100, 118, 132, 1)
                 FontWeight: =FontWeight.Semibold
-                Height: =85
+                Height: =58
                 HoverColor: =RGBA(255, 255, 255, 1)
                 HoverFill: =ColorFade(RGBA(100, 118, 132, 1), -20%)
                 Size: =25
                 Text: ="Filtrar"
-                Width: =227
-                X: =438
-                Y: =218
+                Width: =157
+                X: =544
+                Y: =244
                 ZIndex: =4
 
         DataCard3 As dataCard.blankCard:

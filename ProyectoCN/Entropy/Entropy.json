@@ -34,6 +34,8 @@
     "DataCard6": 61,
     "DataCard9": 39,
     "frases": 59,
+    "Gallery2": 100,
+    "galleryTemplate2": 101,
     "Host": 3,
     "Icon1_2": 47,
     "Icon1_3": 80,
@@ -46,6 +48,7 @@
     "Image1_17": 88,
     "Image1_18": 91,
     "Image1_7": 65,
+    "Image3": 108,
     "Image3_1": 31,
     "Image3_2": 34,
     "Image3_3": 37,
@@ -83,13 +86,17 @@
     "Rectangle3_3": 33,
     "Rectangle3_4": 36,
     "Subcategoria": 24,
-    "Subcategoria2": 4
+    "Subcategoria2": 4,
+    "Subtitle3": 110,
+    "Title3": 109
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "06/07/2024 14:57:56",
+  "HeaderLastSavedDateTimeUTC": "06/07/2024 15:00:34",
   "IsLegacyComponentAllowGlobalScopeCase": false,
-  "LocalConnectionIDReferences": {},
+  "LocalConnectionIDReferences": {
+    "d7574a38-7a16-4ba0-9a94-38a61af65d0c": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/25a6af8110224b619fa35956ad7c3a64\""
+  },
   "LocalDatabaseReferencesAsEmpty": true,
   "LocalResourceFileNames": {
     "aseo": "3620ac70-a030-4c5b-9c03-ce9bf63224a0.png",
@@ -105,7 +112,10 @@
   },
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
-  "OrderDataSource": {},
+  "OrderDataSource": {
+    "Categorias": 1,
+    "CustomGallerySample": 0
+  },
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
@@ -113,6 +123,7 @@
     "arrow": 2,
     "button": 3,
     "fluidGrid": 0,
+    "gallery": 7,
     "icon": 6,
     "image": 5,
     "label": 1,
@@ -151,6 +162,8 @@
     "DataCard6": {},
     "DataCard9": {},
     "frases": {},
+    "Gallery2": {},
+    "galleryTemplate2": {},
     "Host": {},
     "Icon1_2": {},
     "Icon1_3": {},
@@ -163,6 +176,7 @@
     "Image1_17": {},
     "Image1_18": {},
     "Image1_7": {},
+    "Image3": {},
     "Image3_1": {},
     "Image3_2": {},
     "Image3_3": {},
@@ -200,7 +214,9 @@
     "Rectangle3_3": {},
     "Rectangle3_4": {},
     "Subcategoria": {},
-    "Subcategoria2": {}
+    "Subcategoria2": {},
+    "Subtitle3": {},
+    "Title3": {}
   },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
@@ -237,6 +253,8 @@
     "DataCard6": 50,
     "DataCard9": 29,
     "frases": 0,
+    "Gallery2": 0,
+    "galleryTemplate2": 0,
     "Host": 0,
     "Icon1_2": 3,
     "Icon1_3": 3,
@@ -249,6 +267,7 @@
     "Image1_17": 11,
     "Image1_18": 14,
     "Image1_7": 54,
+    "Image3": 0,
     "Image3_1": 21,
     "Image3_2": 24,
     "Image3_3": 27,
@@ -286,7 +305,9 @@
     "Rectangle3_3": 23,
     "Rectangle3_4": 26,
     "Subcategoria": 0,
-    "Subcategoria2": 0
+    "Subcategoria2": 0,
+    "Subtitle3": 0,
+    "Title3": 0
   },
   "ResourcesJsonIndices": {
     "Image-aseo": 4,

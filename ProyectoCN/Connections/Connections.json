@@ -1,1 +1,24 @@
-{}
+{
+  "d7574a38-7a16-4ba0-9a94-38a61af65d0c": {
+    "connectionRef": {
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1693/1.0.1693.3738/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline"
+    },
+    "datasets": {
+      "https://crfpcastilla-my.sharepoint.com/personal/cmolinas09_educastillalamancha_es": {
+        "dataSources": {
+          "Categorias": {
+            "tableName": "31868c09-46a2-4dfc-881c-30ebef29d903"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Categorias"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "d7574a38-7a16-4ba0-9a94-38a61af65d0c"
+  }
+}
