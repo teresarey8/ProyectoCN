@@ -40,7 +40,7 @@
                 BorderColor: =RGBA(32, 54, 71, 1)
                 DelayItemLoading: =true
                 Height: =711
-                Items: =Subcategorias
+                Items: =Categorias
                 Layout: =Layout.Vertical
                 LoadingSpinner: =LoadingSpinner.Data
                 TemplatePadding: =0
@@ -55,7 +55,7 @@
                     DisabledBorderColor: =RGBA(166, 166, 166, 1)
                     DisabledFill: =RGBA(244, 244, 244, 1)
                     Height: =Min(Self.Width, Parent.TemplateHeight - 115)
-                    Image: =ThisItem.Imagen
+                    Image: =ThisItem.img
                     ImagePosition: =ImagePosition.Fill
                     OnSelect: =Select(Parent)
                     RadiusBottomLeft: =8
@@ -68,6 +68,7 @@
                     ZIndex: =1
 
                 Title2 As label:
+                    Align: =Align.Center
                     Color: =RGBA(50, 49, 48, 1)
                     DisabledColor: =RGBA(166, 166, 166, 1)
                     FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
@@ -77,30 +78,13 @@
                     PaddingLeft: =0
                     PaddingRight: =0
                     PaddingTop: =0
+                    Size: =20
                     Text: =ThisItem.Título
                     VerticalAlign: =VerticalAlign.Top
                     Width: =Parent.TemplateWidth - 64
                     X: =32
                     Y: =Image2.Y + Image2.Height + 16
                     ZIndex: =2
-
-                Subtitle2 As label:
-                    Color: =RGBA(0, 0, 0, 1)
-                    DisabledColor: =RGBA(166, 166, 166, 1)
-                    FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-                    Height: =Self.Size * 1.8
-                    OnSelect: =Select(Parent)
-                    PaddingBottom: =0
-                    PaddingLeft: =0
-                    PaddingRight: =0
-                    PaddingTop: =0
-                    Size: =12
-                    Text: =ThisItem.Nombre
-                    VerticalAlign: =VerticalAlign.Top
-                    Width: =Title2.Width
-                    X: =Title2.X
-                    Y: =Title2.Y + Title2.Height + 8
-                    ZIndex: =3
 
             Button1_2 As button:
                 DisabledBorderColor: =RGBA(166, 166, 166, 1)
