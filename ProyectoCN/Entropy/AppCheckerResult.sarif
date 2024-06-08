@@ -823,10 +823,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 6,
-                  "charOffset": 43,
+                  "charLength": 16,
+                  "charOffset": 53,
                   "snippet": {
-                    "text": "Nombre"
+                    "text": "SubcategoryNames"
                   }
                 }
               },
@@ -838,16 +838,12 @@
             }
           ],
           "message": {
-            "arguments": [
-              "Text",
-              "Record"
-            ],
             "id": "issue"
           },
           "properties": {
             "level": "High"
           },
-          "ruleId": "app-ErrCannotCoerce-SourceType-TargetType",
+          "ruleId": "app-ErrInvalidSchemaNeedCol",
           "ruleIndex": 2
         },
         {
@@ -1418,17 +1414,14 @@
               }
             },
             {
-              "id": "app-ErrCannotCoerce-SourceType-TargetType",
+              "id": "app-ErrInvalidSchemaNeedCol",
               "messageStrings": {
                 "issue": {
-                  "text": "Can't convert this data type. Power Apps can't convert this {0} to a {1}."
+                  "text": "Invalid schema, expected a one-column table."
                 }
               },
               "properties": {
                 "componentType": "app",
-                "howToFix": [
-                  "Edit your formula so that you convert the data in question to the expected type."
-                ],
                 "level": "High",
                 "primaryCategory": "formula",
                 "whyFix": ""
