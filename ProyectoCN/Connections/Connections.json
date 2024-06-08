@@ -8,14 +8,42 @@
     "datasets": {
       "https://crfpcastilla-my.sharepoint.com/personal/cmolinas09_educastillalamancha_es": {
         "dataSources": {
+          "Categorias_1": {
+            "tableName": "31868c09-46a2-4dfc-881c-30ebef29d903"
+          },
+          "cateSubcate": {
+            "tableName": "460aec7c-4e5d-4979-be77-c9ef3c8b651b"
+          },
+          "Imagenes": {
+            "tableName": "5324c035-340c-40c2-99a6-97f646d0e969"
+          },
+          "Imagen-Palabra": {
+            "tableName": "b5a3cdc0-0653-410b-adb3-87b7e3970e10"
+          },
+          "Palabras": {
+            "tableName": "fb602dbd-6c01-44ff-b949-c11240ce773f"
+          },
           "Subcategorias": {
             "tableName": "f50302ce-b8a9-463e-80ca-962777f73cd1"
+          },
+          "Subcategorias_1": {
+            "tableName": "f50302ce-b8a9-463e-80ca-962777f73cd1"
+          },
+          "subCate-imagenes": {
+            "tableName": "25dda9da-ca06-4fb5-85a0-cf8b6420877c"
           }
         }
       }
     },
     "dataSources": [
-      "Subcategorias"
+      "Subcategorias",
+      "Subcategorias_1",
+      "subCate-imagenes",
+      "Palabras",
+      "Imagenes",
+      "Imagen-Palabra",
+      "cateSubcate",
+      "Categorias_1"
     ],
     "dependencies": {},
     "dependents": [],
