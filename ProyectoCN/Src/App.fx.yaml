@@ -1,5 +1,6 @@
 App As appinfo:
     BackEnabled: =true
+    OnStart: =Set(SelectedCategory, Blank())
     StartScreen: =Categoria
     Theme: =PowerAppsTheme
 
