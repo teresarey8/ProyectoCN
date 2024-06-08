@@ -36,14 +36,8 @@
                 BorderColor: =RGBA(32, 54, 71, 1)
                 DelayItemLoading: =true
                 Height: =951
-                Items: |-
-                    =Filter(
-                              Subcategorias,
-                              Nombre in Filter(
-                                  cateSubcate,
-                                  cate = SelectedCategory.Nombre
-                              ).SubcategoriasNombre
-                          )
+                Items: |
+                    =Filter(Subcategorias, Nombre in SubcategoryNames)
                 Layout: =Layout.Vertical
                 LoadingSpinner: =LoadingSpinner.Data
                 TemplatePadding: =0

@@ -58,7 +58,9 @@
                     Image: =ThisItem.img
                     ImagePosition: =ImagePosition.Fill
                     OnSelect: |+
-                        =Set(SelectedCategory, ThisItem)/ Navigate(Subcategoria, ScreenTransition.Fade)
+                        =Set(SelectedCategory, ThisItem)/
+                        Set(SubcategoryNames, Filter(cateSubcate, cate = ThisItem.Nombre).subCate)
+                        / Navigate(Subcategoria, ScreenTransition.Fade)
                         
                     RadiusBottomLeft: =8
                     RadiusBottomRight: =8
