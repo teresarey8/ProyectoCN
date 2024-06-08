@@ -14,6 +14,166 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "Pictogramas.Canvas4.Y"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Pictogramas.Canvas4.Y",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 19,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "RectQuickActionBar2"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Y",
+                "module": "Pictogramas",
+                "type": "Pictogramas.Canvas4"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "RectQuickActionBar2"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Pictogramas.Canvas4.Y"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Pictogramas.Canvas4.Y",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 2,
+                  "charOffset": 19,
+                  "snippet": {
+                    "text": ".Y"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Y",
+                "module": "Pictogramas",
+                "type": "Pictogramas.Canvas4"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Pictogramas.Canvas4.Y"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Pictogramas.Canvas4.Y",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 19,
+                  "charOffset": 24,
+                  "snippet": {
+                    "text": "RectQuickActionBar2"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Y",
+                "module": "Pictogramas",
+                "type": "Pictogramas.Canvas4"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "RectQuickActionBar2"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Pictogramas.Canvas4.Y"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Pictogramas.Canvas4.Y",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 7,
+                  "charOffset": 43,
+                  "snippet": {
+                    "text": ".Height"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Y",
+                "module": "Pictogramas",
+                "type": "Pictogramas.Canvas4"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "Subcategoria.Canvas3.Y"
                 }
               ],
@@ -183,10 +343,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 6,
-                  "charOffset": 43,
+                  "charLength": 16,
+                  "charOffset": 32,
                   "snippet": {
-                    "text": "Nombre"
+                    "text": "SubcategoryNames"
                   }
                 }
               },
@@ -199,16 +359,15 @@
           ],
           "message": {
             "arguments": [
-              "Text",
-              "Record"
+              "SubcategoryNames"
             ],
             "id": "issue"
           },
           "properties": {
             "level": "High"
           },
-          "ruleId": "app-ErrCannotCoerce-SourceType-TargetType",
-          "ruleIndex": 2
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -225,7 +384,7 @@
                 },
                 "region": {
                   "charLength": 2,
-                  "charOffset": 50,
+                  "charOffset": 29,
                   "snippet": {
                     "text": "in"
                   }
@@ -248,6 +407,246 @@
             "level": "Medium"
           },
           "ruleId": "app-SuggestRemoteExecutionHint-InOpRhs",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Categoria.Canvas2.Y"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Categoria.Canvas2.Y",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 19,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "RectQuickActionBar2"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Y",
+                "module": "Categoria",
+                "type": "Categoria.Canvas2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "RectQuickActionBar2"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Categoria.Canvas2.Y"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Categoria.Canvas2.Y",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 2,
+                  "charOffset": 19,
+                  "snippet": {
+                    "text": ".Y"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Y",
+                "module": "Categoria",
+                "type": "Categoria.Canvas2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Categoria.Canvas2.Y"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Categoria.Canvas2.Y",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 19,
+                  "charOffset": 24,
+                  "snippet": {
+                    "text": "RectQuickActionBar2"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Y",
+                "module": "Categoria",
+                "type": "Categoria.Canvas2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "RectQuickActionBar2"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Categoria.Canvas2.Y"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Categoria.Canvas2.Y",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 7,
+                  "charOffset": 43,
+                  "snippet": {
+                    "text": ".Height"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Y",
+                "module": "Categoria",
+                "type": "Categoria.Canvas2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Categoria.Canvas2.DataCard2.Gallery1.Image2.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Categoria.Canvas2.DataCard2.Gallery1.Image2.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 11,
+                  "charOffset": 62,
+                  "snippet": {
+                    "text": "cateSubcate"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Categoria",
+                "type": "Categoria.Canvas2.DataCard2.Gallery1.Image2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "cateSubcate"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Categoria.Canvas2.DataCard2.Gallery1.Image2.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Categoria.Canvas2.DataCard2.Gallery1.Image2.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 6,
+                  "charOffset": 55,
+                  "snippet": {
+                    "text": "Filter"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Categoria",
+                "type": "Categoria.Canvas2.DataCard2.Gallery1.Image2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Filter"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
           "ruleIndex": 3
         },
         {
@@ -255,32 +654,32 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Categoria.Canvas2.Y"
+                  "fullyQualifiedName": "Categoria.Canvas2.DataCard2.Gallery1.Image2.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Categoria.Canvas2.Y",
+                  "fullyQualifiedName": "Categoria.Canvas2.DataCard2.Gallery1.Image2.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 19,
-                  "charOffset": 0,
+                  "charLength": 4,
+                  "charOffset": 75,
                   "snippet": {
-                    "text": "RectQuickActionBar2"
+                    "text": "cate"
                   }
                 }
               },
               "properties": {
-                "member": "Y",
+                "member": "OnSelect",
                 "module": "Categoria",
-                "type": "Categoria.Canvas2"
+                "type": "Categoria.Canvas2.DataCard2.Gallery1.Image2"
               }
             }
           ],
           "message": {
             "arguments": [
-              "RectQuickActionBar2"
+              "cate"
             ],
             "id": "issue"
           },
@@ -295,72 +694,73 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Categoria.Canvas2.Y"
+                  "fullyQualifiedName": "Categoria.Canvas2.DataCard2.Gallery1.Image2.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Categoria.Canvas2.Y",
+                  "fullyQualifiedName": "Categoria.Canvas2.DataCard2.Gallery1.Image2.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 2,
-                  "charOffset": 19,
+                  "charLength": 1,
+                  "charOffset": 80,
                   "snippet": {
-                    "text": ".Y"
+                    "text": "="
                   }
                 }
               },
               "properties": {
-                "member": "Y",
+                "member": "OnSelect",
                 "module": "Categoria",
-                "type": "Categoria.Canvas2"
+                "type": "Categoria.Canvas2.DataCard2.Gallery1.Image2"
               }
             }
           ],
           "message": {
             "arguments": [
-              "Error"
+              "Error",
+              "Text"
             ],
             "id": "issue"
           },
           "properties": {
             "level": "High"
           },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
+          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
+          "ruleIndex": 4
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Categoria.Canvas2.Y"
+                  "fullyQualifiedName": "Categoria.Canvas2.DataCard2.Gallery1.Image2.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Categoria.Canvas2.Y",
+                  "fullyQualifiedName": "Categoria.Canvas2.DataCard2.Gallery1.Image2.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 19,
-                  "charOffset": 24,
+                  "charLength": 8,
+                  "charOffset": 98,
                   "snippet": {
-                    "text": "RectQuickActionBar2"
+                    "text": ".subCate"
                   }
                 }
               },
               "properties": {
-                "member": "Y",
+                "member": "OnSelect",
                 "module": "Categoria",
-                "type": "Categoria.Canvas2"
+                "type": "Categoria.Canvas2.DataCard2.Gallery1.Image2"
               }
             }
           ],
           "message": {
             "arguments": [
-              "RectQuickActionBar2"
+              "subCate"
             ],
             "id": "issue"
           },
@@ -369,206 +769,6 @@
           },
           "ruleId": "app-ErrInvalidName",
           "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Categoria.Canvas2.Y"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Categoria.Canvas2.Y",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 43,
-                  "snippet": {
-                    "text": ".Height"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Y",
-                "module": "Categoria",
-                "type": "Categoria.Canvas2"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Error"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Pictogramas.Canvas4.Y"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Pictogramas.Canvas4.Y",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 19,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "RectQuickActionBar2"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Y",
-                "module": "Pictogramas",
-                "type": "Pictogramas.Canvas4"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "RectQuickActionBar2"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Pictogramas.Canvas4.Y"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Pictogramas.Canvas4.Y",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 19,
-                  "snippet": {
-                    "text": ".Y"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Y",
-                "module": "Pictogramas",
-                "type": "Pictogramas.Canvas4"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Error"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Pictogramas.Canvas4.Y"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Pictogramas.Canvas4.Y",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 19,
-                  "charOffset": 24,
-                  "snippet": {
-                    "text": "RectQuickActionBar2"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Y",
-                "module": "Pictogramas",
-                "type": "Pictogramas.Canvas4"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "RectQuickActionBar2"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Pictogramas.Canvas4.Y"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Pictogramas.Canvas4.Y",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 43,
-                  "snippet": {
-                    "text": ".Height"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Y",
-                "module": "Pictogramas",
-                "type": "Pictogramas.Canvas4"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Error"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
         },
         {
           "locations": [
@@ -1078,7 +1278,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1108,7 +1308,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 5
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -1138,7 +1338,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1168,67 +1368,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Categoria.Canvas2.DataCard2.Gallery1.Image2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Categoria.Canvas2.DataCard2.Gallery1.Image2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Categoria",
-                "type": "Categoria.Canvas2.DataCard2.Gallery1.Image2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Categoria.Canvas2.DataCard2.Gallery1.Image2.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Categoria.Canvas2.DataCard2.Gallery1.Image2.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Categoria",
-                "type": "Categoria.Canvas2.DataCard2.Gallery1.Image2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 5
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -1258,7 +1398,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedVariables",
-          "ruleIndex": 6
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -1288,7 +1428,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedMediaResources",
-          "ruleIndex": 7
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -1318,7 +1458,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedMediaResources",
-          "ruleIndex": 7
+          "ruleIndex": 8
         }
       ],
       "tool": {
@@ -1358,23 +1498,6 @@
               }
             },
             {
-              "id": "app-ErrCannotCoerce-SourceType-TargetType",
-              "messageStrings": {
-                "issue": {
-                  "text": "Can't convert this data type. Power Apps can't convert this {0} to a {1}."
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "Edit your formula so that you convert the data in question to the expected type."
-                ],
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
-            {
               "id": "app-SuggestRemoteExecutionHint-InOpRhs",
               "messageStrings": {
                 "issue": {
@@ -1390,6 +1513,38 @@
                   "Try moving your data to a different data source."
                 ],
                 "level": "Medium",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrInvalidArgs-Func",
+              "messageStrings": {
+                "issue": {
+                  "text": "The function '{0}' has some invalid arguments."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrIncompatibleTypesForEquality-Left-Right",
+              "messageStrings": {
+                "issue": {
+                  "text": "Incompatible types for comparison. These types can't be compared: {0}, {1}."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "You might need to convert the value to be the same type, such as converting a date string (e.g., \"12/31/2018\") to a date value.",
+                  "If you’re comparing records or tables, the field or column types must match exactly."
+                ],
+                "level": "High",
                 "primaryCategory": "formula",
                 "whyFix": ""
               }
