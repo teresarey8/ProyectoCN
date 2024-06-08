@@ -15,7 +15,8 @@
       }
     },
     "dataSources": [
-      "Subcategorias"
+      "Subcategorias",
+      "Categorias"
     ],
     "dependencies": {},
     "dependents": [],
