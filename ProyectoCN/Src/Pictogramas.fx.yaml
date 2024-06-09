@@ -85,37 +85,3 @@
                 Y: =60
                 ZIndex: =18
 
-            Rectangle1_12 As rectangle:
-                BorderColor: =RGBA(32, 54, 71, 1)
-                Fill: =RGBA(100, 118, 132, 1)
-                Height: =329
-                Width: =321
-                X: =410
-                Y: =395
-                ZIndex: =19
-
-            Image1_11 As image:
-                BorderColor: =RGBA(32, 54, 71, 1)
-                DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                DisabledFill: =RGBA(244, 244, 244, 1)
-                Height: =187
-                Image: =semana
-                Width: =194
-                X: =474
-                Y: =468
-                ZIndex: =20
-
-            Label3_13 As label:
-                Align: =Align.Center
-                BorderColor: =RGBA(32, 54, 71, 1)
-                Color: =RGBA(255, 255, 255, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                Fill: =RGBA(128, 128, 128, 1)
-                Height: =53
-                Size: =25
-                Text: ="Picto Calendario 1"
-                Width: =321
-                X: =409
-                Y: =724
-                ZIndex: =21
-
