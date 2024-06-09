@@ -1344,17 +1344,17 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "App.PicotsNames"
+                  "fullyQualifiedName": "App.SelectedSubCategory"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "App.PicotsNames",
+                  "fullyQualifiedName": "App.SelectedSubCategory",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "PicotsNames",
+                "member": "SelectedSubCategory",
                 "module": "App",
                 "type": "App"
               }
@@ -1374,17 +1374,17 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "App.SelectedSubCategory"
+                  "fullyQualifiedName": "App.PictosNames"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "App.SelectedSubCategory",
+                  "fullyQualifiedName": "App.PictosNames",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "SelectedSubCategory",
+                "member": "PictosNames",
                 "module": "App",
                 "type": "App"
               }
