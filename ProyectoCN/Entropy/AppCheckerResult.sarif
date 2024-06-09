@@ -14,6 +14,326 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "Categoria.Canvas2.Y"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Categoria.Canvas2.Y",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 19,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "RectQuickActionBar2"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Y",
+                "module": "Categoria",
+                "type": "Categoria.Canvas2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "RectQuickActionBar2"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Categoria.Canvas2.Y"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Categoria.Canvas2.Y",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 2,
+                  "charOffset": 19,
+                  "snippet": {
+                    "text": ".Y"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Y",
+                "module": "Categoria",
+                "type": "Categoria.Canvas2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Categoria.Canvas2.Y"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Categoria.Canvas2.Y",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 19,
+                  "charOffset": 24,
+                  "snippet": {
+                    "text": "RectQuickActionBar2"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Y",
+                "module": "Categoria",
+                "type": "Categoria.Canvas2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "RectQuickActionBar2"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Categoria.Canvas2.Y"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Categoria.Canvas2.Y",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 7,
+                  "charOffset": 43,
+                  "snippet": {
+                    "text": ".Height"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Y",
+                "module": "Categoria",
+                "type": "Categoria.Canvas2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Categoria_backUp.Canvas2_1.Y"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Categoria_backUp.Canvas2_1.Y",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 19,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "RectQuickActionBar2"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Y",
+                "module": "Categoria_backUp",
+                "type": "Categoria_backUp.Canvas2_1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "RectQuickActionBar2"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Categoria_backUp.Canvas2_1.Y"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Categoria_backUp.Canvas2_1.Y",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 2,
+                  "charOffset": 19,
+                  "snippet": {
+                    "text": ".Y"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Y",
+                "module": "Categoria_backUp",
+                "type": "Categoria_backUp.Canvas2_1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Categoria_backUp.Canvas2_1.Y"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Categoria_backUp.Canvas2_1.Y",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 19,
+                  "charOffset": 24,
+                  "snippet": {
+                    "text": "RectQuickActionBar2"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Y",
+                "module": "Categoria_backUp",
+                "type": "Categoria_backUp.Canvas2_1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "RectQuickActionBar2"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Categoria_backUp.Canvas2_1.Y"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Categoria_backUp.Canvas2_1.Y",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 7,
+                  "charOffset": 43,
+                  "snippet": {
+                    "text": ".Height"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Y",
+                "module": "Categoria_backUp",
+                "type": "Categoria_backUp.Canvas2_1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "frases.Canvas1.Y"
                 }
               ],
@@ -154,326 +474,6 @@
                 "member": "Y",
                 "module": "frases",
                 "type": "frases.Canvas1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Error"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Categoria.Canvas2.Y"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Categoria.Canvas2.Y",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 19,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "RectQuickActionBar2"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Y",
-                "module": "Categoria",
-                "type": "Categoria.Canvas2"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "RectQuickActionBar2"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Categoria.Canvas2.Y"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Categoria.Canvas2.Y",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 19,
-                  "snippet": {
-                    "text": ".Y"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Y",
-                "module": "Categoria",
-                "type": "Categoria.Canvas2"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Error"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Categoria.Canvas2.Y"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Categoria.Canvas2.Y",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 19,
-                  "charOffset": 24,
-                  "snippet": {
-                    "text": "RectQuickActionBar2"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Y",
-                "module": "Categoria",
-                "type": "Categoria.Canvas2"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "RectQuickActionBar2"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Categoria.Canvas2.Y"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Categoria.Canvas2.Y",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 43,
-                  "snippet": {
-                    "text": ".Height"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Y",
-                "module": "Categoria",
-                "type": "Categoria.Canvas2"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Error"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Categoria_backUp.Canvas2_1.Y"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Categoria_backUp.Canvas2_1.Y",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 19,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "RectQuickActionBar2"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Y",
-                "module": "Categoria_backUp",
-                "type": "Categoria_backUp.Canvas2_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "RectQuickActionBar2"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Categoria_backUp.Canvas2_1.Y"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Categoria_backUp.Canvas2_1.Y",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 19,
-                  "snippet": {
-                    "text": ".Y"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Y",
-                "module": "Categoria_backUp",
-                "type": "Categoria_backUp.Canvas2_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Error"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Categoria_backUp.Canvas2_1.Y"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Categoria_backUp.Canvas2_1.Y",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 19,
-                  "charOffset": 24,
-                  "snippet": {
-                    "text": "RectQuickActionBar2"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Y",
-                "module": "Categoria_backUp",
-                "type": "Categoria_backUp.Canvas2_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "RectQuickActionBar2"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Categoria_backUp.Canvas2_1.Y"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Categoria_backUp.Canvas2_1.Y",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 43,
-                  "snippet": {
-                    "text": ".Height"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Y",
-                "module": "Categoria_backUp",
-                "type": "Categoria_backUp.Canvas2_1"
               }
             }
           ],
@@ -1074,36 +1074,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Categoria.Canvas2.DataCard2.Gallery1.Image2.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Categoria.Canvas2.DataCard2.Gallery1.Image2.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Categoria",
-                "type": "Categoria.Canvas2.DataCard2.Gallery1.Image2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "Categoria.Canvas2.DataCard2.Gallery1.Image2.AccessibleLabel"
                 }
               ],
@@ -1128,6 +1098,36 @@
           },
           "ruleId": "acc-AccessibleLabelNeeded",
           "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Categoria.Canvas2.DataCard2.Gallery1.Image2.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Categoria.Canvas2.DataCard2.Gallery1.Image2.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Categoria",
+                "type": "Categoria.Canvas2.DataCard2.Gallery1.Image2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -1254,6 +1254,66 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "Subcategoria.Canvas3.DataCard1.Gallery2.Image3.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Subcategoria.Canvas3.DataCard1.Gallery2.Image3.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Subcategoria",
+                "type": "Subcategoria.Canvas3.DataCard1.Gallery2.Image3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Subcategoria.Canvas3.DataCard1.Gallery2.Image3.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Subcategoria.Canvas3.DataCard1.Gallery2.Image3.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Subcategoria",
+                "type": "Subcategoria.Canvas3.DataCard1.Gallery2.Image3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "App.SelectedCategory"
                 }
               ],
@@ -1265,6 +1325,66 @@
               },
               "properties": {
                 "member": "SelectedCategory",
+                "module": "App",
+                "type": "App"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedVariables",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "App.PicotsNames"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App.PicotsNames",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "PicotsNames",
+                "module": "App",
+                "type": "App"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedVariables",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "App.SelectedSubCategory"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App.SelectedSubCategory",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "SelectedSubCategory",
                 "module": "App",
                 "type": "App"
               }
