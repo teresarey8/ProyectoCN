@@ -33,6 +33,82 @@
                 Y: =45
                 ZIndex: =1
 
+            "Gallery5 As gallery.'BrowseLayout_Vertical_TwoTextOneImageTwoColumnOverlayVariant_ver5.0'":
+                BorderColor: =RGBA(32, 54, 71, 1)
+                DelayItemLoading: =true
+                Height: =818
+                Items: =Filter(Imagenes_1,Nombre in ForAll(PictosNames, img.Value))
+                Layout: =Layout.Vertical
+                LoadingSpinner: =LoadingSpinner.Data
+                TemplatePadding: =4
+                TemplateSize: =Min(320, Self.Height - 60)
+                Width: =768
+                WrapCount: =2
+                Y: =430
+                ZIndex: =1
+
+                Image8 As image:
+                    BorderColor: =RGBA(32, 54, 71, 1)
+                    DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                    DisabledFill: =RGBA(244, 244, 244, 1)
+                    Height: =Parent.TemplateHeight
+                    Image: =ThisItem.img
+                    ImagePosition: =ImagePosition.Fill
+                    OnSelect: |-
+                        =Set(SelectedPicto,ThisItem)/
+                        Set(PalabrasNames, Filter('Imagen-Palabra_1',Palabra.Value = ThisItem.Nombre))/
+                        Navigate(frases,ScreenTransition.Fade)
+                    RadiusBottomLeft: =8
+                    RadiusBottomRight: =8
+                    RadiusTopLeft: =8
+                    RadiusTopRight: =8
+                    Width: =Parent.TemplateWidth
+                    ZIndex: =1
+
+                Overlay2 As rectangle:
+                    BorderColor: =RGBA(32, 54, 71, 1)
+                    Fill: =RGBA(0, 0, 0, 0.4)
+                    Height: =108
+                    OnSelect: =Select(Parent)
+                    Width: =Parent.TemplateWidth
+                    Y: =Parent.TemplateHeight - 108
+                    ZIndex: =2
+
+                Title8 As label:
+                    Color: =RGBA(255, 255, 255, 1)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    FontWeight: =FontWeight.Semibold
+                    Height: =Self.Size * 1.8
+                    OnSelect: =Select(Parent)
+                    PaddingBottom: =0
+                    PaddingLeft: =0
+                    PaddingRight: =0
+                    PaddingTop: =0
+                    Size: =20
+                    Text: =ThisItem.Título
+                    VerticalAlign: =VerticalAlign.Top
+                    Width: =Parent.TemplateWidth - 64
+                    X: =32
+                    Y: =Overlay2.Y + 16
+                    ZIndex: =3
+
+                Subtitle7 As label:
+                    Color: =RGBA(255, 255, 255, 1)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    Height: =Self.Size * 1.8
+                    OnSelect: =Select(Parent)
+                    PaddingBottom: =0
+                    PaddingLeft: =0
+                    PaddingRight: =0
+                    PaddingTop: =0
+                    Size: =18
+                    Text: =ThisItem.Nombre
+                    VerticalAlign: =VerticalAlign.Top
+                    Width: =Title8.Width
+                    X: =Title8.X
+                    Y: =Title8.Y + Title8.Height + 8
+                    ZIndex: =4
+
             Button1_3 As button:
                 DisabledBorderColor: =RGBA(166, 166, 166, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -71,7 +147,7 @@
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 Height: =101
                 Size: =40
-                Text: ="Nombre de Categoría"
+                Text: ="Nombre de subCategoría"
                 Width: =565
                 X: =117
                 Y: =162
