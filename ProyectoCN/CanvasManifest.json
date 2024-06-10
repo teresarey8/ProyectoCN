@@ -100,7 +100,7 @@
       "zeroalltabindexes": true
     },
     "Author": "",
-    "BindingErrorCount": 133,
+    "BindingErrorCount": 135,
     "ContainsThirdPartyPcfControls": false,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "DesktopOrTablet",
@@ -139,6 +139,7 @@
     "Subcategoria",
     "Pictogramas",
     "Pictogramas_backUp",
-    "frases"
+    "frases",
+    "Screen1"
   ]
 }
