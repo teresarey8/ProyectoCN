@@ -2,12 +2,13 @@
     LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
 
     Canvas4 As fluidGrid.fluidGridWithBlankCard:
-        BorderColor: =RGBA(0. 0. 0. 1)
+        BorderColor: =RGBA(255, 255, 255, 1)
         BorderThickness: =0
-        Fill: =RGBA(0. 0. 0. 0)
+        Fill: =RGBA(255, 255, 255, 1)
         Height: =Parent.Height - Self.Y
         Width: =Parent.Width
-        Y: =RectQuickActionBar2.Y + RectQuickActionBar2.Height
+        Y: |
+            =
         ZIndex: =3
 
         DataCard4 As dataCard:
