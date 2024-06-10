@@ -17,8 +17,9 @@
             BorderStyle: =BorderStyle.Solid
             BorderThickness: =0
             DisplayMode: =DisplayMode.Edit
-            Fill: =RGBA(0. 0. 0. 0)
-            Height: =1163
+            Fill: |
+                =Color.White
+            Height: =1363
             Width: =Parent.Width
             X: =0
             Y: =0
@@ -32,7 +33,7 @@
                 DisabledBorderColor: =RGBA(56. 56. 56. 1)
                 DisabledColor: =RGBA(166. 166. 166. 1)
                 DisabledFill: =RGBA(0. 0. 0. 0)
-                Fill: =RGBA(0. 0. 0. 0)
+                Fill: =Color.White
                 Font: =Font.Verdana
                 Height: =89
                 Size: =40
@@ -126,7 +127,7 @@
                 Color: =RGBA(0. 0. 0. 1)
                 DisabledBorderColor: =RGBA(166. 166. 166. 1)
                 DisabledColor: =RGBA(244. 244. 244. 1)
-                Fill: =RGBA(0. 0. 0. 0)
+                Fill: =Color.White
                 Icon: =Icon.Hamburger
                 X: =35
                 Y: =33
