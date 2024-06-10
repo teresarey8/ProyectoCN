@@ -1,7 +1,6 @@
 "Categoria_backUp As screen.'phoneLayout_FluidGridWithHeaderPageLayout_ver3.0'":
-    Fill: =RGBA(255. 255. 255. 1)
     ImagePosition: =ImagePosition.Center
-    LoadingSpinnerColor: =RGBA(100. 118. 132. 1)
+    LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
 
     Canvas2_1 As fluidGrid.fluidGridWithBlankCard:
         BorderColor: =RGBA(0. 0. 0. 1)
@@ -17,7 +16,7 @@
             BorderStyle: =BorderStyle.Solid
             BorderThickness: =0
             DisplayMode: =DisplayMode.Edit
-            Fill: =RGBA(0. 0. 0. 0)
+            Fill: =RGBA(255, 255, 255, 1)
             Height: =1163
             Width: =Parent.Width
             X: =0
@@ -27,12 +26,13 @@
             Label2_7 As label:
                 Align: |
                     =Align.Center
-                BorderColor: =RGBA(32. 54. 71. 1)
-                Color: =RGBA(0. 0. 0. 1)
-                DisabledBorderColor: =RGBA(56. 56. 56. 1)
-                DisabledColor: =RGBA(166. 166. 166. 1)
-                DisabledFill: =RGBA(0. 0. 0. 0)
-                Fill: =RGBA(0. 0. 0. 0)
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(50, 49, 48, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(161, 159, 157, 1)
+                FocusedBorderThickness: =4
                 Font: =Font.Verdana
                 Height: =89
                 Size: =40
@@ -43,16 +43,26 @@
                 ZIndex: =1
 
             Button1_6 As button:
-                Color: =RGBA(255. 255. 255. 1)
-                DisabledBorderColor: =RGBA(166. 166. 166. 1)
-                DisabledColor: =RGBA(166. 166. 166. 1)
-                DisabledFill: =RGBA(244. 244. 244. 1)
-                Fill: =RGBA(100. 118. 132. 1)
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(161, 159, 157, 1)
+                DisabledFill: =RGBA(242, 242, 241, 0)
+                Fill: =RGBA(0, 120, 212, 1)
+                Font: =Font.'Segoe UI'
                 FontWeight: =FontWeight.Semibold
                 Height: =96
-                HoverColor: =RGBA(255. 255. 255. 1)
-                HoverFill: =ColorFade(RGBA(100. 118. 132. 1), -20%)
+                HoverBorderColor: =RGBA(0, 0, 0, 0)
+                HoverColor: =RGBA(255, 255, 255, 1)
+                HoverFill: =RGBA(16, 110, 190, 1)
                 OnSelect: =Navigate(Subcategoria,ScreenTransition.Cover)
+                PressedBorderColor: =RGBA(0, 69, 120, 1)
+                PressedColor: =RGBA(255, 255, 255, 1)
+                PressedFill: =RGBA(16, 110, 190, 1)
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
                 Size: =25
                 Text: ="Añadir tarjeta  +"
                 Width: =328
@@ -63,24 +73,41 @@
             Icon1_3 As icon.OptionsList:
                 BorderColor: =RGBA(0. 0. 0. 1)
                 Color: =RGBA(0. 0. 0. 1)
-                DisabledBorderColor: =RGBA(166. 166. 166. 1)
-                DisabledColor: =RGBA(244. 244. 244. 1)
-                Fill: =RGBA(0. 0. 0. 0)
+                DisabledBorderColor: =RGBA(245, 245, 245, 1)
+                DisabledColor: =RGBA(225, 223, 221, 1)
+                DisabledFill: =RGBA(0, 0, 0, 0)
+                FocusedBorderThickness: =4
+                HoverBorderColor: =RGBA(0, 0, 0, 0)
+                HoverColor: =RGBA(16, 110, 190, 1)
+                HoverFill: =RGBA(0, 0, 0, 0)
                 Icon: =Icon.Hamburger
+                PressedBorderColor: =RGBA(0, 0, 0, 0)
+                PressedColor: =RGBA(16, 110, 190, 1)
+                PressedFill: =RGBA(0, 0, 0, 0)
                 X: =35
                 Y: =33
                 ZIndex: =3
 
             Button2_4 As button:
-                Color: =RGBA(255. 255. 255. 1)
-                DisabledBorderColor: =RGBA(166. 166. 166. 1)
-                DisabledColor: =RGBA(166. 166. 166. 1)
-                DisabledFill: =RGBA(244. 244. 244. 1)
-                Fill: =RGBA(100. 118. 132. 1)
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(161, 159, 157, 1)
+                DisabledFill: =RGBA(242, 242, 241, 0)
+                Fill: =RGBA(0, 120, 212, 1)
+                Font: =Font.'Segoe UI'
                 FontWeight: =FontWeight.Semibold
                 Height: =85
-                HoverColor: =RGBA(255. 255. 255. 1)
-                HoverFill: =ColorFade(RGBA(100. 118. 132. 1), -20%)
+                HoverBorderColor: =RGBA(0, 0, 0, 0)
+                HoverColor: =RGBA(255, 255, 255, 1)
+                HoverFill: =RGBA(16, 110, 190, 1)
+                PressedBorderColor: =RGBA(0, 69, 120, 1)
+                PressedColor: =RGBA(255, 255, 255, 1)
+                PressedFill: =RGBA(16, 110, 190, 1)
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
                 Size: =25
                 Text: ="Filtrar"
                 Width: =227
@@ -89,15 +116,25 @@
                 ZIndex: =4
 
             Button1_7 As button:
-                Color: =RGBA(255. 255. 255. 1)
-                DisabledBorderColor: =RGBA(166. 166. 166. 1)
-                DisabledColor: =RGBA(166. 166. 166. 1)
-                DisabledFill: =RGBA(244. 244. 244. 1)
-                Fill: =RGBA(100. 118. 132. 1)
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(161, 159, 157, 1)
+                DisabledFill: =RGBA(242, 242, 241, 0)
+                Fill: =RGBA(0, 120, 212, 1)
+                Font: =Font.'Segoe UI'
                 FontWeight: =FontWeight.Semibold
                 Height: =313
-                HoverColor: =RGBA(255. 255. 255. 1)
-                HoverFill: =ColorFade(RGBA(100. 118. 132. 1), -20%)
+                HoverBorderColor: =RGBA(0, 0, 0, 0)
+                HoverColor: =RGBA(255, 255, 255, 1)
+                HoverFill: =RGBA(16, 110, 190, 1)
+                PressedBorderColor: =RGBA(0, 69, 120, 1)
+                PressedColor: =RGBA(255, 255, 255, 1)
+                PressedFill: =RGBA(16, 110, 190, 1)
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
                 Size: =25
                 Text: ="Picto 1"
                 VerticalAlign: =VerticalAlign.Bottom
@@ -107,27 +144,43 @@
                 ZIndex: =10
 
             Image1_15 As image:
-                BorderColor: =RGBA(32. 54. 71. 1)
-                DisabledBorderColor: =RGBA(166. 166. 166. 1)
-                DisabledFill: =RGBA(244. 244. 244. 1)
-                Fill: =RGBA(0. 0. 0. 0)
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledFill: =RGBA(0, 0, 0, 0)
+                FocusedBorderThickness: =4
                 Height: =169
+                HoverBorderColor: =RGBA(0, 0, 0, 0)
+                HoverFill: =RGBA(0, 0, 0, 0)
                 Image: =semana
+                PressedBorderColor: =RGBA(0, 0, 0, 0)
+                PressedFill: =RGBA(0, 0, 0, 0)
                 Width: =245
                 X: =77
                 Y: =433
                 ZIndex: =11
 
             Button1_8 As button:
-                Color: =RGBA(255. 255. 255. 1)
-                DisabledBorderColor: =RGBA(166. 166. 166. 1)
-                DisabledColor: =RGBA(166. 166. 166. 1)
-                DisabledFill: =RGBA(244. 244. 244. 1)
-                Fill: =RGBA(100. 118. 132. 1)
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(161, 159, 157, 1)
+                DisabledFill: =RGBA(242, 242, 241, 0)
+                Fill: =RGBA(0, 120, 212, 1)
+                Font: =Font.'Segoe UI'
                 FontWeight: =FontWeight.Semibold
                 Height: =313
-                HoverColor: =RGBA(255. 255. 255. 1)
-                HoverFill: =ColorFade(RGBA(100. 118. 132. 1), -20%)
+                HoverBorderColor: =RGBA(0, 0, 0, 0)
+                HoverColor: =RGBA(255, 255, 255, 1)
+                HoverFill: =RGBA(16, 110, 190, 1)
+                PressedBorderColor: =RGBA(0, 69, 120, 1)
+                PressedColor: =RGBA(255, 255, 255, 1)
+                PressedFill: =RGBA(16, 110, 190, 1)
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
                 Size: =25
                 Text: ="Picto 1"
                 VerticalAlign: =VerticalAlign.Bottom
@@ -137,27 +190,43 @@
                 ZIndex: =12
 
             Image1_16 As image:
-                BorderColor: =RGBA(32. 54. 71. 1)
-                DisabledBorderColor: =RGBA(166. 166. 166. 1)
-                DisabledFill: =RGBA(244. 244. 244. 1)
-                Fill: =RGBA(0. 0. 0. 0)
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledFill: =RGBA(0, 0, 0, 0)
+                FocusedBorderThickness: =4
                 Height: =169
+                HoverBorderColor: =RGBA(0, 0, 0, 0)
+                HoverFill: =RGBA(0, 0, 0, 0)
                 Image: =semana
+                PressedBorderColor: =RGBA(0, 0, 0, 0)
+                PressedFill: =RGBA(0, 0, 0, 0)
                 Width: =245
                 X: =438
                 Y: =433
                 ZIndex: =13
 
             Button1_9 As button:
-                Color: =RGBA(255. 255. 255. 1)
-                DisabledBorderColor: =RGBA(166. 166. 166. 1)
-                DisabledColor: =RGBA(166. 166. 166. 1)
-                DisabledFill: =RGBA(244. 244. 244. 1)
-                Fill: =RGBA(100. 118. 132. 1)
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(161, 159, 157, 1)
+                DisabledFill: =RGBA(242, 242, 241, 0)
+                Fill: =RGBA(0, 120, 212, 1)
+                Font: =Font.'Segoe UI'
                 FontWeight: =FontWeight.Semibold
                 Height: =313
-                HoverColor: =RGBA(255. 255. 255. 1)
-                HoverFill: =ColorFade(RGBA(100. 118. 132. 1), -20%)
+                HoverBorderColor: =RGBA(0, 0, 0, 0)
+                HoverColor: =RGBA(255, 255, 255, 1)
+                HoverFill: =RGBA(16, 110, 190, 1)
+                PressedBorderColor: =RGBA(0, 69, 120, 1)
+                PressedColor: =RGBA(255, 255, 255, 1)
+                PressedFill: =RGBA(16, 110, 190, 1)
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
                 Size: =25
                 Text: ="Picto 1"
                 VerticalAlign: =VerticalAlign.Bottom
@@ -167,12 +236,18 @@
                 ZIndex: =14
 
             Image1_17 As image:
-                BorderColor: =RGBA(32. 54. 71. 1)
-                DisabledBorderColor: =RGBA(166. 166. 166. 1)
-                DisabledFill: =RGBA(244. 244. 244. 1)
-                Fill: =RGBA(0. 0. 0. 0)
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledFill: =RGBA(0, 0, 0, 0)
+                FocusedBorderThickness: =4
                 Height: =169
+                HoverBorderColor: =RGBA(0, 0, 0, 0)
+                HoverFill: =RGBA(0, 0, 0, 0)
                 Image: =semana
+                PressedBorderColor: =RGBA(0, 0, 0, 0)
+                PressedFill: =RGBA(0, 0, 0, 0)
                 Width: =245
                 X: =77
                 Y: =782
@@ -201,12 +276,14 @@
             ZIndex: =4
 
             Label1_1 As label:
-                BorderColor: =RGBA(32. 54. 71. 1)
-                Color: =RGBA(0. 0. 0. 1)
-                DisabledBorderColor: =RGBA(56. 56. 56. 1)
-                DisabledColor: =RGBA(166. 166. 166. 1)
-                DisabledFill: =RGBA(0. 0. 0. 0)
-                Fill: =RGBA(0. 0. 0. 0)
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(50, 49, 48, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(161, 159, 157, 1)
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
                 Height: =60
                 Size: =15
                 Text: ="13000220.ies@edu.jccm.es"
@@ -216,12 +293,14 @@
                 ZIndex: =1
 
             Label2_1 As label:
-                BorderColor: =RGBA(32. 54. 71. 1)
-                Color: =RGBA(0. 0. 0. 1)
-                DisabledBorderColor: =RGBA(56. 56. 56. 1)
-                DisabledColor: =RGBA(166. 166. 166. 1)
-                DisabledFill: =RGBA(0. 0. 0. 0)
-                Fill: =RGBA(0. 0. 0. 0)
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(50, 49, 48, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(161, 159, 157, 1)
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
                 Size: =13
                 Text: ="IES JUAN BOSCO"
                 Width: =165
@@ -230,15 +309,25 @@
                 ZIndex: =2
 
     Button1_10 As button:
-        Color: =RGBA(255. 255. 255. 1)
-        DisabledBorderColor: =RGBA(166. 166. 166. 1)
-        DisabledColor: =RGBA(166. 166. 166. 1)
-        DisabledFill: =RGBA(244. 244. 244. 1)
-        Fill: =RGBA(100. 118. 132. 1)
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(161, 159, 157, 1)
+        DisabledFill: =RGBA(242, 242, 241, 0)
+        Fill: =RGBA(0, 120, 212, 1)
+        Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Semibold
         Height: =313
-        HoverColor: =RGBA(255. 255. 255. 1)
-        HoverFill: =ColorFade(RGBA(100. 118. 132. 1), -20%)
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =RGBA(16, 110, 190, 1)
+        PressedBorderColor: =RGBA(0, 69, 120, 1)
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =RGBA(16, 110, 190, 1)
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
         Size: =25
         Text: ="Picto 1"
         VerticalAlign: =VerticalAlign.Bottom
@@ -248,12 +337,18 @@
         ZIndex: =4
 
     Image1_18 As image:
-        BorderColor: =RGBA(32. 54. 71. 1)
-        DisabledBorderColor: =RGBA(166. 166. 166. 1)
-        DisabledFill: =RGBA(244. 244. 244. 1)
-        Fill: =RGBA(0. 0. 0. 0)
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        FocusedBorderThickness: =4
         Height: =169
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverFill: =RGBA(0, 0, 0, 0)
         Image: =semana
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedFill: =RGBA(0, 0, 0, 0)
         Width: =245
         X: =437
         Y: =786
