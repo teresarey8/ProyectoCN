@@ -44,7 +44,7 @@
                 Y: =21
                 ZIndex: =1
 
-            "Gallery1 As gallery.'BrowseLayout_Vertical_TwoTextOneImageTwoColumnVariant_ver5.0'":
+            "Gallery1 As gallery.'BrowseLayout_Vertical_TwoTextOneImageTwoColumnOverlayVariant_ver5.0'":
                 BorderColor: =RGBA(255, 255, 255, 1)
                 DelayItemLoading: =true
                 Fill: =RGBA(255, 255, 255, 1)
@@ -53,22 +53,22 @@
                 Layout: =Layout.Vertical
                 LoadingSpinner: =LoadingSpinner.Data
                 TemplateFill: =RGBA(0. 0. 0. 0)
-                TemplatePadding: =0
-                TemplateSize: =Min(416, Self.Height - 60)
+                TemplatePadding: =4
+                TemplateSize: =Min(320, Self.Height - 60)
                 Width: =764
                 WrapCount: =2
                 X: =4
                 Y: =483
                 ZIndex: =1
 
-                Image2 As image:
+                Image1 As image:
                     BorderColor: =RGBA(0, 0, 0, 0)
                     BorderStyle: =BorderStyle.None
                     BorderThickness: =2
                     DisabledBorderColor: =RGBA(0, 0, 0, 0)
                     DisabledFill: =RGBA(0, 0, 0, 0)
                     FocusedBorderThickness: =4
-                    Height: =0
+                    Height: =Parent.TemplateHeight
                     HoverBorderColor: =RGBA(0, 0, 0, 0)
                     HoverFill: =RGBA(0, 0, 0, 0)
                     Image: =ThisItem.img
@@ -84,25 +84,30 @@
                     RadiusBottomRight: =8
                     RadiusTopLeft: =8
                     RadiusTopRight: =8
-                    Width: =Parent.TemplateWidth - 32
-                    X: =16
-                    Y: =4
+                    Width: =Parent.TemplateWidth
                     ZIndex: =1
 
-                Title2 As label:
+                Overlay1 As rectangle:
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    Fill: =RGBA(0, 0, 0, 0.4)
+                    Height: =108
+                    OnSelect: =Select(Parent)
+                    Width: =Parent.TemplateWidth
+                    Y: =Parent.TemplateHeight - 108
+                    ZIndex: =2
+
+                Title1 As label:
                     Align: =Align.Center
                     BorderColor: =RGBA(255, 255, 255, 1)
-                    Color: =RGBA(50, 49, 48, 1)
-                    DisabledBorderColor: =RGBA(56. 56. 56. 1)
+                    Color: =RGBA(255, 255, 255, 1)
                     DisabledColor: =RGBA(161, 159, 157, 1)
-                    DisabledFill: =RGBA(0. 0. 0. 0)
-                    Fill: =RGBA(255, 255, 255, 1)
+                    Fill: =
                     Font: =Font.'Segoe UI'
-                    FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+                    FontWeight: =FontWeight.Semibold
                     Height: =Self.Size * 1.8
                     OnSelect: =Select(Parent)
                     PaddingBottom: =0
-                    PaddingLeft: =12
+                    PaddingLeft: =0
                     PaddingRight: =0
                     PaddingTop: =0
                     Size: =20
@@ -110,8 +115,26 @@
                     VerticalAlign: =VerticalAlign.Top
                     Width: =Parent.TemplateWidth - 64
                     X: =32
-                    Y: =Image2.Y + Image2.Height + 16
-                    ZIndex: =2
+                    Y: =Overlay1.Y + 16
+                    ZIndex: =3
+
+                Subtitle1 As label:
+                    Color: =RGBA(255, 255, 255, 1)
+                    DisabledColor: =RGBA(161, 159, 157, 1)
+                    Font: =Font.'Segoe UI'
+                    Height: =Self.Size * 1.8
+                    OnSelect: =Select(Parent)
+                    PaddingBottom: =0
+                    PaddingLeft: =0
+                    PaddingRight: =0
+                    PaddingTop: =0
+                    Size: =12
+                    Text: =ThisItem.Color
+                    VerticalAlign: =VerticalAlign.Top
+                    Width: =Title1.Width
+                    X: =Title1.X
+                    Y: =Title1.Y + Title1.Height + 8
+                    ZIndex: =4
 
             Button1_2 As button:
                 BorderColor: =RGBA(0, 0, 0, 0)
@@ -142,26 +165,6 @@
                 Y: =206
                 ZIndex: =2
 
-            Icon1_2 As icon.OptionsList:
-                BorderColor: =RGBA(0, 0, 0, 10)
-                Color: =RGBA(255, 255, 255, 1)
-                DisabledBorderColor: =RGBA(255, 255, 255, 1)
-                DisabledColor: =
-                DisabledFill: =
-                Fill: =RGBA(0,0,0,1)
-                FocusedBorderColor: =
-                FocusedBorderThickness: =0
-                HoverBorderColor: =RGBA(0, 0, 0, 0)
-                HoverColor: =RGBA(16, 110, 190, 1)
-                HoverFill: =RGBA(0, 0, 0, 0)
-                Icon: =Icon.Hamburger
-                PressedBorderColor: =RGBA(0, 0, 0, 0)
-                PressedColor: =RGBA(16, 110, 190, 1)
-                PressedFill: =RGBA(0, 0, 0, 0)
-                X: =35
-                Y: =33
-                ZIndex: =3
-
             Button2_2 As button:
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
@@ -189,6 +192,24 @@
                 X: =544
                 Y: =244
                 ZIndex: =4
+
+            Icon1 As icon.Hamburger:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                Color: =RGBA(0, 120, 212, 1)
+                DisabledBorderColor: =RGBA(245, 245, 245, 1)
+                DisabledColor: =RGBA(225, 223, 221, 1)
+                DisabledFill: =RGBA(0, 0, 0, 0)
+                FocusedBorderThickness: =4
+                HoverBorderColor: =RGBA(0, 0, 0, 0)
+                HoverColor: =RGBA(16, 110, 190, 1)
+                HoverFill: =RGBA(0, 0, 0, 0)
+                Icon: =Icon.Hamburger
+                PressedBorderColor: =RGBA(0, 0, 0, 0)
+                PressedColor: =RGBA(16, 110, 190, 1)
+                PressedFill: =RGBA(0, 0, 0, 0)
+                X: =40
+                Y: =40
+                ZIndex: =5
 
         DataCard3 As dataCard.blankCard:
             BorderColor: =RGBA(0. 0. 0. 1)
