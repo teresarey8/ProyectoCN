@@ -23,11 +23,29 @@
             Y: =0
             ZIndex: =1
 
+            Label2_6 As label:
+                Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(50, 49, 48, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(161, 159, 157, 1)
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                Height: =89
+                Size: =40
+                Text: ="Proyecto SD"
+                Width: =401
+                X: =189
+                Y: =45
+                ZIndex: =1
+
             "Gallery3 As gallery.'BrowseLayout_Vertical_TwoTextOneImageTwoColumnOverlayVariant_ver5.0'":
                 BorderColor: =RGBA(245, 245, 245, 1)
                 DelayItemLoading: =true
                 Height: =812
-                Items: =Imagenes_1
+                Items: =Filter(Imagenes_1, Nombre in ForAll(PictosNames, img.Value))
                 Layout: =Layout.Vertical
                 LoadingSpinner: =LoadingSpinner.Data
                 TemplatePadding: =4
@@ -103,24 +121,6 @@
                     X: =Title4.X
                     Y: =Title4.Y + Title4.Height + 8
                     ZIndex: =4
-
-            Label2_6 As label:
-                Align: =Align.Center
-                BorderColor: =RGBA(0, 0, 0, 0)
-                BorderStyle: =BorderStyle.None
-                BorderThickness: =2
-                Color: =RGBA(50, 49, 48, 1)
-                DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                DisabledColor: =RGBA(161, 159, 157, 1)
-                FocusedBorderThickness: =4
-                Font: =Font.'Segoe UI'
-                Height: =89
-                Size: =40
-                Text: ="Proyecto SD"
-                Width: =401
-                X: =189
-                Y: =45
-                ZIndex: =1
 
             "Gallery5 As gallery.'BrowseLayout_Vertical_TwoTextOneImageTwoColumnOverlayVariant_ver5.0'":
                 BorderColor: =RGBA(245, 245, 245, 1)
