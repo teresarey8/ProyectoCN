@@ -40,11 +40,11 @@
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@Categorias],DataSourceInfo.DisplayName,Title)
             Fill: =RGBA(0. 0. 0. 0)
-            Height: =50
+            Height: =74
             MaxLength: =DataSourceInfo([@Categorias], DataSourceInfo.MaxLength, Title)
             Required: =false
             Update: =DataCardValue7.Text
-            Width: =256
+            Width: =768
             X: =0
             Y: =0
             ZIndex: =5
@@ -162,13 +162,13 @@
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@Categorias],DataSourceInfo.DisplayName,Color)
             Fill: =RGBA(0. 0. 0. 0)
-            Height: =50
+            Height: =104
             MaxLength: =DataSourceInfo([@Categorias], DataSourceInfo.MaxLength, Color)
             Required: =false
             Update: =DataCardValue8.Text
-            Width: =256
-            X: =1
-            Y: =0
+            Width: =768
+            X: =0
+            Y: =1
             ZIndex: =5
 
             DataCardKey9 As label:
@@ -287,9 +287,9 @@
             Height: =50
             Required: =false
             Update: =Image6.Image
-            Width: =256
-            X: =2
-            Y: =0
+            Width: =512
+            X: =0
+            Y: =2
             ZIndex: =5
 
             DataCardKey10 As label:
@@ -356,8 +356,6 @@
                 PressedFill: =RGBA(16. 110. 190. 1)
                 Size: =15
                 Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey10.Y + DataCardKey10.Height + 5
                 ZIndex: =3
 
             ErrorMessage7 As label:
