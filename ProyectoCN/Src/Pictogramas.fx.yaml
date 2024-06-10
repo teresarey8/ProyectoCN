@@ -180,6 +180,7 @@
                 DisabledBorderColor: =RGBA(166. 166. 166. 1)
                 DisabledFill: =RGBA(119. 119. 119. .5)
                 Fill: =RGBA(100. 118. 132. 1)
+                OnSelect: =Navigate(Categoria, ScreenTransition.Fade)
                 X: =60
                 Y: =60
                 ZIndex: =18
