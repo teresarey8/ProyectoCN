@@ -1,0 +1,170 @@
+"Subcategoria As screen.'phoneLayout_FluidGridWithHeaderPageLayout_ver3.0'":
+    LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
+
+    Canvas3 As fluidGrid.fluidGridWithBlankCard:
+        BorderColor: =RGBA(255, 255, 255, 1)
+        BorderThickness: =0
+        Fill: =RGBA(0. 0. 0. 0)
+        Height: =1366
+        Width: =Parent.Width
+        Y: =RectQuickActionBar1.Y + RectQuickActionBar1.Height
+        ZIndex: =3
+
+        DataCard1 As dataCard:
+            BorderColor: =RGBA(255, 255, 255, 1)
+            BorderStyle: =BorderStyle.Solid
+            BorderThickness: =0
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(255, 255, 255, 1)
+            Height: =1374
+            Width: =Parent.Width
+            X: =0
+            Y: =0
+            ZIndex: =1
+
+            Label1_2 As label:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(50, 49, 48, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(161, 159, 157, 1)
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                Height: =124
+                Size: =40
+                Text: ="Nombre de Categoría"
+                Width: =582
+                X: =104
+                Y: =136
+                ZIndex: =1
+
+            "Gallery2 As gallery.'BrowseLayout_Vertical_TwoTextOneImageTwoColumnVariant_ver5.0'":
+                BorderColor: =RGBA(245, 245, 245, 1)
+                DelayItemLoading: =true
+                Fill: =RGBA(255, 255, 255, 1)
+                Height: =951
+                Items: =Filter(Subcategorias, Nombre in ForAll(SubcategoryNames, subCate.Value))
+                Layout: =Layout.Vertical
+                LoadingSpinner: =LoadingSpinner.Data
+                TemplateFill: =RGBA(0. 0. 0. 0)
+                TemplatePadding: =0
+                TemplateSize: =Min(416. Self.Height - 60)
+                Width: =763
+                WrapCount: =2
+                X: =5
+                Y: =280
+                ZIndex: =1
+
+                Image3 As image:
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledFill: =RGBA(0, 0, 0, 0)
+                    FocusedBorderThickness: =4
+                    Height: =Min(Self.Width, Parent.TemplateHeight - 115)
+                    HoverBorderColor: =RGBA(0, 0, 0, 0)
+                    HoverFill: =RGBA(0, 0, 0, 0)
+                    Image: =ThisItem.Imagen
+                    ImagePosition: =ImagePosition.Fill
+                    OnSelect: |
+                        =Set(SelectedSubCategory, ThisItem)/
+                        Set(PictosNames, Filter('subCate-imagenes_1', subCate.Value = ThisItem.Nombre).img)
+                        / Navigate(Pictogramas, ScreenTransition.Fade)
+                    PressedBorderColor: =RGBA(0, 0, 0, 0)
+                    PressedFill: =RGBA(0, 0, 0, 0)
+                    RadiusBottomLeft: =8
+                    RadiusBottomRight: =8
+                    RadiusTopLeft: =8
+                    RadiusTopRight: =8
+                    Width: =Parent.TemplateWidth - 32
+                    X: =16
+                    Y: =16
+                    ZIndex: =1
+
+                Title3 As label:
+                    BorderColor: =RGBA(255, 255, 255, 1)
+                    Color: =RGBA(50, 49, 48, 1)
+                    DisabledBorderColor: =RGBA(56. 56. 56. 1)
+                    DisabledColor: =RGBA(161, 159, 157, 1)
+                    DisabledFill: =RGBA(0. 0. 0. 0)
+                    Fill: =RGBA(0. 0. 0. 0)
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+                    Height: =Self.Size * 1.8
+                    OnSelect: =Select(Parent)
+                    PaddingBottom: =0
+                    PaddingLeft: =12
+                    PaddingRight: =0
+                    PaddingTop: =0
+                    Text: =ThisItem.Título
+                    VerticalAlign: =VerticalAlign.Top
+                    Width: =Parent.TemplateWidth - 64
+                    X: =32
+                    Y: =Image3.Y + Image3.Height + 16
+                    ZIndex: =2
+
+                Subtitle2 As label:
+                    BorderColor: =
+                    Color: =RGBA(96, 94, 92, 1)
+                    DisabledBorderColor: =RGBA(56. 56. 56. 1)
+                    DisabledColor: =RGBA(161, 159, 157, 1)
+                    DisabledFill: =RGBA(0. 0. 0. 0)
+                    Fill: =RGBA(255, 255, 255, 1)
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+                    Height: =Self.Size * 1.8
+                    OnSelect: =Select(Parent)
+                    PaddingBottom: =0
+                    PaddingLeft: =12
+                    PaddingRight: =0
+                    PaddingTop: =0
+                    Size: =12
+                    Text: =ThisItem.Nombre
+                    VerticalAlign: =VerticalAlign.Top
+                    Width: =Title3.Width
+                    X: =Title3.X
+                    Y: =Title3.Y + Title3.Height + 8
+                    ZIndex: =3
+
+            Arrow1_2 As arrow.backArrow:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledFill: =RGBA(119. 119. 119. .5)
+                Fill: =RGBA(0, 120, 212, 1)
+                OnSelect: =Navigate(Categoria, ScreenTransition.UnCoverRight)
+                X: =40
+                Y: =40
+                ZIndex: =7
+
+            Label2_5 As label:
+                Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(50, 49, 48, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(161, 159, 157, 1)
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                Height: =89
+                OnSelect: =Navigate(Categoria ScreenTransition.Cover)
+                Size: =40
+                Text: ="Proyecto SD"
+                Width: =401
+                X: =186
+                Y: =45
+                ZIndex: =8
+
+        DataCard9 As dataCard.blankCard:
+            BorderColor: =RGBA(0. 0. 0. 1)
+            BorderStyle: =BorderStyle.Solid
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(0. 0. 0. 0)
+            Height: =100
+            Width: =768
+            X: =0
+            Y: =1
+            ZIndex: =2
+

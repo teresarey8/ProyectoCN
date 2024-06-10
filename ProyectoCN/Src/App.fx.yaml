@@ -1,0 +1,16 @@
+App As appinfo:
+    BackEnabled: =true
+    OnStart: |-
+        =Set(SelectedCategory, Blank())/
+        Set(SubcategoryNames,Blank())
+    SizeBreakpoints: =[600. 900. 1200]
+    StartScreen: =Categoria
+    Theme: =PowerAppsTheme
+
+    Host As hostControl.DefaultHostControlVariant:
+        OnCancel: =false
+        OnEdit: =false
+        OnNew: =false
+        OnSave: =false
+        OnView: =false
+

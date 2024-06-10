@@ -1,0 +1,105 @@
+{
+  "718bd4dd-50a4-4e31-816b-bdc6a73035b3": {
+    "connectionRef": {
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1693/1.0.1693.3738/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline"
+    },
+    "datasets": {
+      "https://crfpcastilla-my.sharepoint.com/personal/cmolinas09_educastillalamancha_es": {
+        "dataSources": {
+          "cateSubcate_1": {
+            "tableName": "460aec7c-4e5d-4979-be77-c9ef3c8b651b"
+          },
+          "Imagen-Palabra_1": {
+            "tableName": "b5a3cdc0-0653-410b-adb3-87b7e3970e10"
+          },
+          "Subcategorias": {
+            "tableName": "f50302ce-b8a9-463e-80ca-962777f73cd1"
+          },
+          "subCate-imagenes_1": {
+            "tableName": "25dda9da-ca06-4fb5-85a0-cf8b6420877c"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Subcategorias",
+      "cateSubcate_1",
+      "Categorias",
+      "subCate-imagenes_1",
+      "Imagen-Palabra_1",
+      "Imagenes_1",
+      "Palabras_1"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "718bd4dd-50a4-4e31-816b-bdc6a73035b3"
+  },
+  "92482c9e-f4d6-4036-ae24-87db55786de0": {
+    "connectionRef": {
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1693/1.0.1693.3738/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline"
+    },
+    "datasets": {
+      "https://crfpcastilla-my.sharepoint.com/personal/cmolinas09_educastillalamancha_es": {
+        "dataSources": {
+          "Palabras_1": {
+            "tableName": "fb602dbd-6c01-44ff-b949-c11240ce773f"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Palabras_1"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "92482c9e-f4d6-4036-ae24-87db55786de0"
+  },
+  "94b47ddf-3cdc-43d4-8c48-e23f9f0d5394": {
+    "connectionRef": {
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1693/1.0.1693.3738/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline"
+    },
+    "datasets": {
+      "https://crfpcastilla-my.sharepoint.com/personal/cmolinas09_educastillalamancha_es": {
+        "dataSources": {
+          "Imagenes_1": {
+            "tableName": "5324c035-340c-40c2-99a6-97f646d0e969"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Imagenes_1"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "94b47ddf-3cdc-43d4-8c48-e23f9f0d5394"
+  },
+  "d7574a38-7a16-4ba0-9a94-38a61af65d0c": {
+    "connectionRef": {
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1693/1.0.1693.3738/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline"
+    },
+    "datasets": {
+      "https://crfpcastilla-my.sharepoint.com/personal/cmolinas09_educastillalamancha_es": {
+        "dataSources": {
+          "Categorias": {
+            "tableName": "31868c09-46a2-4dfc-881c-30ebef29d903"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Categorias"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "d7574a38-7a16-4ba0-9a94-38a61af65d0c"
+  }
+}
