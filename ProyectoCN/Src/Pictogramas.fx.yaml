@@ -43,7 +43,7 @@
             "Gallery5 As gallery.'BrowseLayout_Vertical_TwoTextOneImageTwoColumnOverlayVariant_ver5.0'":
                 BorderColor: =RGBA(245, 245, 245, 1)
                 DelayItemLoading: =true
-                Fill: =RGBA(0. 0. 0. 0)
+                Fill: =RGBA(255, 255, 255, 1)
                 Height: =818
                 Items: =Filter(Imagenes_1,Nombre in ForAll(PictosNames, img.Value))
                 Layout: =Layout.Vertical
