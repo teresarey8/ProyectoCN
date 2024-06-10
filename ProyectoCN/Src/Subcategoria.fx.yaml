@@ -39,7 +39,7 @@
                 Y: =136
                 ZIndex: =1
 
-            "Gallery2 As gallery.'BrowseLayout_Vertical_TwoTextOneImageTwoColumnVariant_ver5.0'":
+            "Gallery2 As gallery.'BrowseLayout_Vertical_TwoTextOneImageTwoColumnOverlayVariant_ver5.0'":
                 BorderColor: =RGBA(245, 245, 245, 1)
                 DelayItemLoading: =true
                 Fill: =RGBA(255, 255, 255, 1)
@@ -48,22 +48,22 @@
                 Layout: =Layout.Vertical
                 LoadingSpinner: =LoadingSpinner.Data
                 TemplateFill: =RGBA(0. 0. 0. 0)
-                TemplatePadding: =0
-                TemplateSize: =Min(416. Self.Height - 60)
+                TemplatePadding: =4
+                TemplateSize: =Min(320, Self.Height - 60)
                 Width: =763
                 WrapCount: =2
                 X: =5
                 Y: =280
                 ZIndex: =1
 
-                Image3 As image:
+                Image2 As image:
                     BorderColor: =RGBA(0, 0, 0, 0)
                     BorderStyle: =BorderStyle.None
                     BorderThickness: =2
                     DisabledBorderColor: =RGBA(0, 0, 0, 0)
                     DisabledFill: =RGBA(0, 0, 0, 0)
                     FocusedBorderThickness: =4
-                    Height: =Min(Self.Width, Parent.TemplateHeight - 115)
+                    Height: =Parent.TemplateHeight
                     HoverBorderColor: =RGBA(0, 0, 0, 0)
                     HoverFill: =RGBA(0, 0, 0, 0)
                     Image: =ThisItem.Imagen
@@ -78,55 +78,56 @@
                     RadiusBottomRight: =8
                     RadiusTopLeft: =8
                     RadiusTopRight: =8
-                    Width: =Parent.TemplateWidth - 32
-                    X: =16
-                    Y: =16
+                    Width: =Parent.TemplateWidth
                     ZIndex: =1
 
-                Title3 As label:
+                Overlay3 As rectangle:
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    Fill: =RGBA(0, 0, 0, 0.4)
+                    Height: =108
+                    OnSelect: =Select(Parent)
+                    Width: =Parent.TemplateWidth
+                    Y: =Parent.TemplateHeight - 108
+                    ZIndex: =2
+
+                Title2 As label:
                     BorderColor: =RGBA(255, 255, 255, 1)
-                    Color: =RGBA(50, 49, 48, 1)
-                    DisabledBorderColor: =RGBA(56. 56. 56. 1)
+                    Color: =RGBA(255, 255, 255, 1)
                     DisabledColor: =RGBA(161, 159, 157, 1)
-                    DisabledFill: =RGBA(0. 0. 0. 0)
-                    Fill: =RGBA(0. 0. 0. 0)
                     Font: =Font.'Segoe UI'
-                    FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+                    FontWeight: =FontWeight.Semibold
                     Height: =Self.Size * 1.8
                     OnSelect: =Select(Parent)
                     PaddingBottom: =0
-                    PaddingLeft: =12
+                    PaddingLeft: =0
                     PaddingRight: =0
                     PaddingTop: =0
                     Text: =ThisItem.Título
                     VerticalAlign: =VerticalAlign.Top
                     Width: =Parent.TemplateWidth - 64
                     X: =32
-                    Y: =Image3.Y + Image3.Height + 16
-                    ZIndex: =2
+                    Y: =Overlay3.Y + 16
+                    ZIndex: =3
 
                 Subtitle2 As label:
                     BorderColor: =
-                    Color: =RGBA(96, 94, 92, 1)
-                    DisabledBorderColor: =RGBA(56. 56. 56. 1)
+                    Color: =RGBA(255, 255, 255, 1)
                     DisabledColor: =RGBA(161, 159, 157, 1)
-                    DisabledFill: =RGBA(0. 0. 0. 0)
-                    Fill: =RGBA(255, 255, 255, 1)
+                    Fill: =RGBA(255, 255, 255, 0)
                     Font: =Font.'Segoe UI'
-                    FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
                     Height: =Self.Size * 1.8
                     OnSelect: =Select(Parent)
                     PaddingBottom: =0
-                    PaddingLeft: =12
+                    PaddingLeft: =0
                     PaddingRight: =0
                     PaddingTop: =0
                     Size: =12
                     Text: =ThisItem.Nombre
                     VerticalAlign: =VerticalAlign.Top
-                    Width: =Title3.Width
-                    X: =Title3.X
-                    Y: =Title3.Y + Title3.Height + 8
-                    ZIndex: =3
+                    Width: =Title2.Width
+                    X: =Title2.X
+                    Y: =Title2.Y + Title2.Height + 8
+                    ZIndex: =4
 
             Arrow1_2 As arrow.backArrow:
                 BorderColor: =RGBA(0, 0, 0, 0)
