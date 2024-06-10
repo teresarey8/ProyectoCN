@@ -1,20 +1,23 @@
 "Categoria_backUp As screen.'phoneLayout_FluidGridWithHeaderPageLayout_ver3.0'":
+    Fill: =RGBA(255. 255. 255. 1)
     ImagePosition: =ImagePosition.Center
-    LoadingSpinnerColor: =RGBA(100, 118, 132, 1)
+    LoadingSpinnerColor: =RGBA(100. 118. 132. 1)
 
     Canvas2_1 As fluidGrid.fluidGridWithBlankCard:
+        BorderColor: =RGBA(0. 0. 0. 1)
         BorderThickness: =0
+        Fill: =RGBA(0. 0. 0. 0)
         Height: =Parent.Height - Self.Y
         Width: =Parent.Width
         Y: =RectQuickActionBar2.Y + RectQuickActionBar2.Height
         ZIndex: =3
 
         DataCard2_1 As dataCard:
-            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderColor: =RGBA(0. 0. 0. 1)
             BorderStyle: =BorderStyle.Solid
             BorderThickness: =0
             DisplayMode: =DisplayMode.Edit
-            Fill: =RGBA(0, 0, 0, 0)
+            Fill: =RGBA(0. 0. 0. 0)
             Height: =1163
             Width: =Parent.Width
             X: =0
@@ -24,9 +27,12 @@
             Label2_7 As label:
                 Align: |
                     =Align.Center
-                BorderColor: =RGBA(32, 54, 71, 1)
-                Color: =RGBA(0, 0, 0, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
+                BorderColor: =RGBA(32. 54. 71. 1)
+                Color: =RGBA(0. 0. 0. 1)
+                DisabledBorderColor: =RGBA(56. 56. 56. 1)
+                DisabledColor: =RGBA(166. 166. 166. 1)
+                DisabledFill: =RGBA(0. 0. 0. 0)
+                Fill: =RGBA(0. 0. 0. 0)
                 Font: =Font.Verdana
                 Height: =89
                 Size: =40
@@ -37,14 +43,15 @@
                 ZIndex: =1
 
             Button1_6 As button:
-                DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                DisabledFill: =RGBA(244, 244, 244, 1)
-                Fill: =RGBA(100, 118, 132, 1)
+                Color: =RGBA(255. 255. 255. 1)
+                DisabledBorderColor: =RGBA(166. 166. 166. 1)
+                DisabledColor: =RGBA(166. 166. 166. 1)
+                DisabledFill: =RGBA(244. 244. 244. 1)
+                Fill: =RGBA(100. 118. 132. 1)
                 FontWeight: =FontWeight.Semibold
                 Height: =96
-                HoverColor: =RGBA(255, 255, 255, 1)
-                HoverFill: =ColorFade(RGBA(100, 118, 132, 1), -20%)
+                HoverColor: =RGBA(255. 255. 255. 1)
+                HoverFill: =ColorFade(RGBA(100. 118. 132. 1), -20%)
                 OnSelect: =Navigate(Subcategoria,ScreenTransition.Cover)
                 Size: =25
                 Text: ="Añadir tarjeta  +"
@@ -54,22 +61,26 @@
                 ZIndex: =2
 
             Icon1_3 As icon.OptionsList:
-                DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                DisabledColor: =RGBA(244, 244, 244, 1)
+                BorderColor: =RGBA(0. 0. 0. 1)
+                Color: =RGBA(0. 0. 0. 1)
+                DisabledBorderColor: =RGBA(166. 166. 166. 1)
+                DisabledColor: =RGBA(244. 244. 244. 1)
+                Fill: =RGBA(0. 0. 0. 0)
                 Icon: =Icon.Hamburger
                 X: =35
                 Y: =33
                 ZIndex: =3
 
             Button2_4 As button:
-                DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                DisabledFill: =RGBA(244, 244, 244, 1)
-                Fill: =RGBA(100, 118, 132, 1)
+                Color: =RGBA(255. 255. 255. 1)
+                DisabledBorderColor: =RGBA(166. 166. 166. 1)
+                DisabledColor: =RGBA(166. 166. 166. 1)
+                DisabledFill: =RGBA(244. 244. 244. 1)
+                Fill: =RGBA(100. 118. 132. 1)
                 FontWeight: =FontWeight.Semibold
                 Height: =85
-                HoverColor: =RGBA(255, 255, 255, 1)
-                HoverFill: =ColorFade(RGBA(100, 118, 132, 1), -20%)
+                HoverColor: =RGBA(255. 255. 255. 1)
+                HoverFill: =ColorFade(RGBA(100. 118. 132. 1), -20%)
                 Size: =25
                 Text: ="Filtrar"
                 Width: =227
@@ -78,14 +89,15 @@
                 ZIndex: =4
 
             Button1_7 As button:
-                DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                DisabledFill: =RGBA(244, 244, 244, 1)
-                Fill: =RGBA(100, 118, 132, 1)
+                Color: =RGBA(255. 255. 255. 1)
+                DisabledBorderColor: =RGBA(166. 166. 166. 1)
+                DisabledColor: =RGBA(166. 166. 166. 1)
+                DisabledFill: =RGBA(244. 244. 244. 1)
+                Fill: =RGBA(100. 118. 132. 1)
                 FontWeight: =FontWeight.Semibold
                 Height: =313
-                HoverColor: =RGBA(255, 255, 255, 1)
-                HoverFill: =ColorFade(RGBA(100, 118, 132, 1), -20%)
+                HoverColor: =RGBA(255. 255. 255. 1)
+                HoverFill: =ColorFade(RGBA(100. 118. 132. 1), -20%)
                 Size: =25
                 Text: ="Picto 1"
                 VerticalAlign: =VerticalAlign.Bottom
@@ -95,9 +107,10 @@
                 ZIndex: =10
 
             Image1_15 As image:
-                BorderColor: =RGBA(32, 54, 71, 1)
-                DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                DisabledFill: =RGBA(244, 244, 244, 1)
+                BorderColor: =RGBA(32. 54. 71. 1)
+                DisabledBorderColor: =RGBA(166. 166. 166. 1)
+                DisabledFill: =RGBA(244. 244. 244. 1)
+                Fill: =RGBA(0. 0. 0. 0)
                 Height: =169
                 Image: =semana
                 Width: =245
@@ -106,14 +119,15 @@
                 ZIndex: =11
 
             Button1_8 As button:
-                DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                DisabledFill: =RGBA(244, 244, 244, 1)
-                Fill: =RGBA(100, 118, 132, 1)
+                Color: =RGBA(255. 255. 255. 1)
+                DisabledBorderColor: =RGBA(166. 166. 166. 1)
+                DisabledColor: =RGBA(166. 166. 166. 1)
+                DisabledFill: =RGBA(244. 244. 244. 1)
+                Fill: =RGBA(100. 118. 132. 1)
                 FontWeight: =FontWeight.Semibold
                 Height: =313
-                HoverColor: =RGBA(255, 255, 255, 1)
-                HoverFill: =ColorFade(RGBA(100, 118, 132, 1), -20%)
+                HoverColor: =RGBA(255. 255. 255. 1)
+                HoverFill: =ColorFade(RGBA(100. 118. 132. 1), -20%)
                 Size: =25
                 Text: ="Picto 1"
                 VerticalAlign: =VerticalAlign.Bottom
@@ -123,9 +137,10 @@
                 ZIndex: =12
 
             Image1_16 As image:
-                BorderColor: =RGBA(32, 54, 71, 1)
-                DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                DisabledFill: =RGBA(244, 244, 244, 1)
+                BorderColor: =RGBA(32. 54. 71. 1)
+                DisabledBorderColor: =RGBA(166. 166. 166. 1)
+                DisabledFill: =RGBA(244. 244. 244. 1)
+                Fill: =RGBA(0. 0. 0. 0)
                 Height: =169
                 Image: =semana
                 Width: =245
@@ -134,14 +149,15 @@
                 ZIndex: =13
 
             Button1_9 As button:
-                DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                DisabledFill: =RGBA(244, 244, 244, 1)
-                Fill: =RGBA(100, 118, 132, 1)
+                Color: =RGBA(255. 255. 255. 1)
+                DisabledBorderColor: =RGBA(166. 166. 166. 1)
+                DisabledColor: =RGBA(166. 166. 166. 1)
+                DisabledFill: =RGBA(244. 244. 244. 1)
+                Fill: =RGBA(100. 118. 132. 1)
                 FontWeight: =FontWeight.Semibold
                 Height: =313
-                HoverColor: =RGBA(255, 255, 255, 1)
-                HoverFill: =ColorFade(RGBA(100, 118, 132, 1), -20%)
+                HoverColor: =RGBA(255. 255. 255. 1)
+                HoverFill: =ColorFade(RGBA(100. 118. 132. 1), -20%)
                 Size: =25
                 Text: ="Picto 1"
                 VerticalAlign: =VerticalAlign.Bottom
@@ -151,9 +167,10 @@
                 ZIndex: =14
 
             Image1_17 As image:
-                BorderColor: =RGBA(32, 54, 71, 1)
-                DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                DisabledFill: =RGBA(244, 244, 244, 1)
+                BorderColor: =RGBA(32. 54. 71. 1)
+                DisabledBorderColor: =RGBA(166. 166. 166. 1)
+                DisabledFill: =RGBA(244. 244. 244. 1)
+                Fill: =RGBA(0. 0. 0. 0)
                 Height: =169
                 Image: =semana
                 Width: =245
@@ -162,10 +179,10 @@
                 ZIndex: =15
 
         DataCard3_1 As dataCard.blankCard:
-            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderColor: =RGBA(0. 0. 0. 1)
             BorderStyle: =BorderStyle.Solid
             DisplayMode: =DisplayMode.Edit
-            Fill: =RGBA(0, 0, 0, 0)
+            Fill: =RGBA(0. 0. 0. 0)
             Height: =0
             Width: =768
             X: =0
@@ -173,10 +190,10 @@
             ZIndex: =3
 
         DataCard5_1 As dataCard.blankCard:
-            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderColor: =RGBA(0. 0. 0. 1)
             BorderStyle: =BorderStyle.Solid
             DisplayMode: =DisplayMode.Edit
-            Fill: =RGBA(0, 0, 0, 0)
+            Fill: =RGBA(0. 0. 0. 0)
             Height: =100
             Width: =768
             X: =0
@@ -184,9 +201,12 @@
             ZIndex: =4
 
             Label1_1 As label:
-                BorderColor: =RGBA(32, 54, 71, 1)
-                Color: =RGBA(0, 0, 0, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
+                BorderColor: =RGBA(32. 54. 71. 1)
+                Color: =RGBA(0. 0. 0. 1)
+                DisabledBorderColor: =RGBA(56. 56. 56. 1)
+                DisabledColor: =RGBA(166. 166. 166. 1)
+                DisabledFill: =RGBA(0. 0. 0. 0)
+                Fill: =RGBA(0. 0. 0. 0)
                 Height: =60
                 Size: =15
                 Text: ="13000220.ies@edu.jccm.es"
@@ -196,9 +216,12 @@
                 ZIndex: =1
 
             Label2_1 As label:
-                BorderColor: =RGBA(32, 54, 71, 1)
-                Color: =RGBA(0, 0, 0, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
+                BorderColor: =RGBA(32. 54. 71. 1)
+                Color: =RGBA(0. 0. 0. 1)
+                DisabledBorderColor: =RGBA(56. 56. 56. 1)
+                DisabledColor: =RGBA(166. 166. 166. 1)
+                DisabledFill: =RGBA(0. 0. 0. 0)
+                Fill: =RGBA(0. 0. 0. 0)
                 Size: =13
                 Text: ="IES JUAN BOSCO"
                 Width: =165
@@ -207,14 +230,15 @@
                 ZIndex: =2
 
     Button1_10 As button:
-        DisabledBorderColor: =RGBA(166, 166, 166, 1)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
-        Fill: =RGBA(100, 118, 132, 1)
+        Color: =RGBA(255. 255. 255. 1)
+        DisabledBorderColor: =RGBA(166. 166. 166. 1)
+        DisabledColor: =RGBA(166. 166. 166. 1)
+        DisabledFill: =RGBA(244. 244. 244. 1)
+        Fill: =RGBA(100. 118. 132. 1)
         FontWeight: =FontWeight.Semibold
         Height: =313
-        HoverColor: =RGBA(255, 255, 255, 1)
-        HoverFill: =ColorFade(RGBA(100, 118, 132, 1), -20%)
+        HoverColor: =RGBA(255. 255. 255. 1)
+        HoverFill: =ColorFade(RGBA(100. 118. 132. 1), -20%)
         Size: =25
         Text: ="Picto 1"
         VerticalAlign: =VerticalAlign.Bottom
@@ -224,9 +248,10 @@
         ZIndex: =4
 
     Image1_18 As image:
-        BorderColor: =RGBA(32, 54, 71, 1)
-        DisabledBorderColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
+        BorderColor: =RGBA(32. 54. 71. 1)
+        DisabledBorderColor: =RGBA(166. 166. 166. 1)
+        DisabledFill: =RGBA(244. 244. 244. 1)
+        Fill: =RGBA(0. 0. 0. 0)
         Height: =169
         Image: =semana
         Width: =245

@@ -1,19 +1,22 @@
 "Pictogramas As screen.'phoneLayout_FluidGridWithHeaderPageLayout_ver3.0'":
-    LoadingSpinnerColor: =RGBA(100, 118, 132, 1)
+    Fill: =RGBA(255. 255. 255. 1)
+    LoadingSpinnerColor: =RGBA(100. 118. 132. 1)
 
     Canvas4 As fluidGrid.fluidGridWithBlankCard:
+        BorderColor: =RGBA(0. 0. 0. 1)
         BorderThickness: =0
+        Fill: =RGBA(0. 0. 0. 0)
         Height: =Parent.Height - Self.Y
         Width: =Parent.Width
         Y: =RectQuickActionBar2.Y + RectQuickActionBar2.Height
         ZIndex: =3
 
         DataCard4 As dataCard:
-            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderColor: =RGBA(0. 0. 0. 1)
             BorderStyle: =BorderStyle.Solid
             BorderThickness: =0
             DisplayMode: =DisplayMode.Edit
-            Fill: =RGBA(0, 0, 0, 0)
+            Fill: =RGBA(0. 0. 0. 0)
             Height: =Parent.Height - 100
             Width: =Parent.Width
             X: =0
@@ -22,9 +25,12 @@
 
             Label2_6 As label:
                 Align: =Align.Center
-                BorderColor: =RGBA(32, 54, 71, 1)
-                Color: =RGBA(0, 0, 0, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
+                BorderColor: =RGBA(32. 54. 71. 1)
+                Color: =RGBA(0. 0. 0. 1)
+                DisabledBorderColor: =RGBA(56. 56. 56. 1)
+                DisabledColor: =RGBA(166. 166. 166. 1)
+                DisabledFill: =RGBA(0. 0. 0. 0)
+                Fill: =RGBA(0. 0. 0. 0)
                 Height: =89
                 Size: =40
                 Text: ="Proyecto SD"
@@ -34,23 +40,26 @@
                 ZIndex: =1
 
             "Gallery5 As gallery.'BrowseLayout_Vertical_TwoTextOneImageTwoColumnOverlayVariant_ver5.0'":
-                BorderColor: =RGBA(32, 54, 71, 1)
+                BorderColor: =RGBA(32. 54. 71. 1)
                 DelayItemLoading: =true
+                Fill: =RGBA(0. 0. 0. 0)
                 Height: =818
                 Items: =Filter(Imagenes_1,Nombre in ForAll(PictosNames, img.Value))
                 Layout: =Layout.Vertical
                 LoadingSpinner: =LoadingSpinner.Data
+                TemplateFill: =RGBA(0. 0. 0. 0)
                 TemplatePadding: =4
-                TemplateSize: =Min(320, Self.Height - 60)
+                TemplateSize: =Min(320. Self.Height - 60)
                 Width: =768
                 WrapCount: =2
                 Y: =430
                 ZIndex: =1
 
                 Image8 As image:
-                    BorderColor: =RGBA(32, 54, 71, 1)
-                    DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                    DisabledFill: =RGBA(244, 244, 244, 1)
+                    BorderColor: =RGBA(32. 54. 71. 1)
+                    DisabledBorderColor: =RGBA(166. 166. 166. 1)
+                    DisabledFill: =RGBA(244. 244. 244. 1)
+                    Fill: =RGBA(0. 0. 0. 0)
                     Height: =Parent.TemplateHeight
                     Image: =ThisItem.img
                     ImagePosition: =ImagePosition.Fill
@@ -66,8 +75,8 @@
                     ZIndex: =1
 
                 Overlay2 As rectangle:
-                    BorderColor: =RGBA(32, 54, 71, 1)
-                    Fill: =RGBA(0, 0, 0, 0.4)
+                    BorderColor: =RGBA(32. 54. 71. 1)
+                    Fill: =RGBA(0. 0. 0. 0.4)
                     Height: =108
                     OnSelect: =Select(Parent)
                     Width: =Parent.TemplateWidth
@@ -75,8 +84,12 @@
                     ZIndex: =2
 
                 Title8 As label:
-                    Color: =RGBA(255, 255, 255, 1)
-                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    BorderColor: =RGBA(0. 0. 0. 1)
+                    Color: =RGBA(255. 255. 255. 1)
+                    DisabledBorderColor: =RGBA(56. 56. 56. 1)
+                    DisabledColor: =RGBA(166. 166. 166. 1)
+                    DisabledFill: =RGBA(0. 0. 0. 0)
+                    Fill: =RGBA(0. 0. 0. 0)
                     FontWeight: =FontWeight.Semibold
                     Height: =Self.Size * 1.8
                     OnSelect: =Select(Parent)
@@ -93,8 +106,12 @@
                     ZIndex: =3
 
                 Subtitle7 As label:
-                    Color: =RGBA(255, 255, 255, 1)
-                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    BorderColor: =RGBA(0. 0. 0. 1)
+                    Color: =RGBA(255. 255. 255. 1)
+                    DisabledBorderColor: =RGBA(56. 56. 56. 1)
+                    DisabledColor: =RGBA(166. 166. 166. 1)
+                    DisabledFill: =RGBA(0. 0. 0. 0)
+                    Fill: =RGBA(0. 0. 0. 0)
                     Height: =Self.Size * 1.8
                     OnSelect: =Select(Parent)
                     PaddingBottom: =0
@@ -110,14 +127,15 @@
                     ZIndex: =4
 
             Button1_3 As button:
-                DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                DisabledFill: =RGBA(244, 244, 244, 1)
-                Fill: =RGBA(100, 118, 132, 1)
+                Color: =RGBA(255. 255. 255. 1)
+                DisabledBorderColor: =RGBA(166. 166. 166. 1)
+                DisabledColor: =RGBA(166. 166. 166. 1)
+                DisabledFill: =RGBA(244. 244. 244. 1)
+                Fill: =RGBA(100. 118. 132. 1)
                 FontWeight: =FontWeight.Semibold
                 Height: =80
-                HoverColor: =RGBA(255, 255, 255, 1)
-                HoverFill: =ColorFade(RGBA(100, 118, 132, 1), -20%)
+                HoverColor: =RGBA(255. 255. 255. 1)
+                HoverFill: =ColorFade(RGBA(100. 118. 132. 1), -20%)
                 Size: =25
                 Text: ="Añadir tarjeta  +"
                 Width: =305
@@ -126,14 +144,15 @@
                 ZIndex: =2
 
             Button2_3 As button:
-                DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                DisabledFill: =RGBA(244, 244, 244, 1)
-                Fill: =RGBA(100, 118, 132, 1)
+                Color: =RGBA(255. 255. 255. 1)
+                DisabledBorderColor: =RGBA(166. 166. 166. 1)
+                DisabledColor: =RGBA(166. 166. 166. 1)
+                DisabledFill: =RGBA(244. 244. 244. 1)
+                Fill: =RGBA(100. 118. 132. 1)
                 FontWeight: =FontWeight.Semibold
                 Height: =71
-                HoverColor: =RGBA(255, 255, 255, 1)
-                HoverFill: =ColorFade(RGBA(100, 118, 132, 1), -20%)
+                HoverColor: =RGBA(255. 255. 255. 1)
+                HoverFill: =ColorFade(RGBA(100. 118. 132. 1), -20%)
                 Size: =25
                 Text: ="Filtrar"
                 Width: =212
@@ -142,9 +161,12 @@
                 ZIndex: =3
 
             Label1_3 As label:
-                BorderColor: =RGBA(32, 54, 71, 1)
-                Color: =RGBA(0, 0, 0, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
+                BorderColor: =RGBA(32. 54. 71. 1)
+                Color: =RGBA(0. 0. 0. 1)
+                DisabledBorderColor: =RGBA(56. 56. 56. 1)
+                DisabledColor: =RGBA(166. 166. 166. 1)
+                DisabledFill: =RGBA(0. 0. 0. 0)
+                Fill: =RGBA(0. 0. 0. 0)
                 Height: =101
                 Size: =40
                 Text: ="Nombre de subCategoría"
@@ -154,9 +176,10 @@
                 ZIndex: =17
 
             Arrow1_3 As arrow.backArrow:
-                BorderColor: =RGBA(32, 54, 71, 1)
-                DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                Fill: =RGBA(100, 118, 132, 1)
+                BorderColor: =RGBA(32. 54. 71. 1)
+                DisabledBorderColor: =RGBA(166. 166. 166. 1)
+                DisabledFill: =RGBA(119. 119. 119. .5)
+                Fill: =RGBA(100. 118. 132. 1)
                 X: =60
                 Y: =60
                 ZIndex: =18

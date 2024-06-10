@@ -1,19 +1,22 @@
 "Subcategoria As screen.'phoneLayout_FluidGridWithHeaderPageLayout_ver3.0'":
-    LoadingSpinnerColor: =RGBA(100, 118, 132, 1)
+    Fill: =RGBA(255. 255. 255. 1)
+    LoadingSpinnerColor: =RGBA(100. 118. 132. 1)
 
     Canvas3 As fluidGrid.fluidGridWithBlankCard:
+        BorderColor: =RGBA(0. 0. 0. 1)
         BorderThickness: =0
+        Fill: =RGBA(0. 0. 0. 0)
         Height: =1366
         Width: =Parent.Width
         Y: =RectQuickActionBar1.Y + RectQuickActionBar1.Height
         ZIndex: =3
 
         DataCard1 As dataCard:
-            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderColor: =RGBA(0. 0. 0. 1)
             BorderStyle: =BorderStyle.Solid
             BorderThickness: =0
             DisplayMode: =DisplayMode.Edit
-            Fill: =RGBA(0, 0, 0, 0)
+            Fill: =RGBA(0. 0. 0. 0)
             Height: =1374
             Width: =Parent.Width
             X: =0
@@ -21,9 +24,12 @@
             ZIndex: =1
 
             Label1_2 As label:
-                BorderColor: =RGBA(32, 54, 71, 1)
-                Color: =RGBA(0, 0, 0, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
+                BorderColor: =RGBA(32. 54. 71. 1)
+                Color: =RGBA(0. 0. 0. 1)
+                DisabledBorderColor: =RGBA(56. 56. 56. 1)
+                DisabledColor: =RGBA(166. 166. 166. 1)
+                DisabledFill: =RGBA(0. 0. 0. 0)
+                Fill: =RGBA(0. 0. 0. 0)
                 Height: =124
                 Size: =40
                 Text: ="Nombre de Categoría"
@@ -33,14 +39,16 @@
                 ZIndex: =1
 
             "Gallery2 As gallery.'BrowseLayout_Vertical_TwoTextOneImageTwoColumnVariant_ver5.0'":
-                BorderColor: =RGBA(32, 54, 71, 1)
+                BorderColor: =RGBA(32. 54. 71. 1)
                 DelayItemLoading: =true
+                Fill: =RGBA(0. 0. 0. 0)
                 Height: =951
                 Items: =Filter(Subcategorias, Nombre in ForAll(SubcategoryNames, subCate.Value))
                 Layout: =Layout.Vertical
                 LoadingSpinner: =LoadingSpinner.Data
+                TemplateFill: =RGBA(0. 0. 0. 0)
                 TemplatePadding: =0
-                TemplateSize: =Min(416, Self.Height - 60)
+                TemplateSize: =Min(416. Self.Height - 60)
                 Width: =763
                 WrapCount: =2
                 X: =5
@@ -48,9 +56,10 @@
                 ZIndex: =1
 
                 Image3 As image:
-                    BorderColor: =RGBA(32, 54, 71, 1)
-                    DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                    DisabledFill: =RGBA(244, 244, 244, 1)
+                    BorderColor: =RGBA(32. 54. 71. 1)
+                    DisabledBorderColor: =RGBA(166. 166. 166. 1)
+                    DisabledFill: =RGBA(244. 244. 244. 1)
+                    Fill: =RGBA(0. 0. 0. 0)
                     Height: =Min(Self.Width, Parent.TemplateHeight - 115)
                     Image: =ThisItem.Imagen
                     ImagePosition: =ImagePosition.Fill
@@ -68,8 +77,12 @@
                     ZIndex: =1
 
                 Title3 As label:
-                    Color: =RGBA(50, 49, 48, 1)
-                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    BorderColor: =RGBA(0. 0. 0. 1)
+                    Color: =RGBA(50. 49. 48. 1)
+                    DisabledBorderColor: =RGBA(56. 56. 56. 1)
+                    DisabledColor: =RGBA(166. 166. 166. 1)
+                    DisabledFill: =RGBA(0. 0. 0. 0)
+                    Fill: =RGBA(0. 0. 0. 0)
                     FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
                     Height: =Self.Size * 1.8
                     OnSelect: =Select(Parent)
@@ -85,8 +98,12 @@
                     ZIndex: =2
 
                 Subtitle2 As label:
-                    Color: =RGBA(0, 0, 0, 1)
-                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    BorderColor: =RGBA(0. 0. 0. 1)
+                    Color: =RGBA(0. 0. 0. 1)
+                    DisabledBorderColor: =RGBA(56. 56. 56. 1)
+                    DisabledColor: =RGBA(166. 166. 166. 1)
+                    DisabledFill: =RGBA(0. 0. 0. 0)
+                    Fill: =RGBA(0. 0. 0. 0)
                     FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
                     Height: =Self.Size * 1.8
                     OnSelect: =Select(Parent)
@@ -103,9 +120,10 @@
                     ZIndex: =3
 
             Arrow1_2 As arrow.backArrow:
-                BorderColor: =RGBA(32, 54, 71, 1)
-                DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                Fill: =RGBA(100, 118, 132, 1)
+                BorderColor: =RGBA(32. 54. 71. 1)
+                DisabledBorderColor: =RGBA(166. 166. 166. 1)
+                DisabledFill: =RGBA(119. 119. 119. .5)
+                Fill: =RGBA(100. 118. 132. 1)
                 OnSelect: =Navigate(Categoria, ScreenTransition.Cover)
                 X: =40
                 Y: =40
@@ -113,11 +131,14 @@
 
             Label2_5 As label:
                 Align: =Align.Center
-                BorderColor: =RGBA(32, 54, 71, 1)
-                Color: =RGBA(0, 0, 0, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
+                BorderColor: =RGBA(32. 54. 71. 1)
+                Color: =RGBA(0. 0. 0. 1)
+                DisabledBorderColor: =RGBA(56. 56. 56. 1)
+                DisabledColor: =RGBA(166. 166. 166. 1)
+                DisabledFill: =RGBA(0. 0. 0. 0)
+                Fill: =RGBA(0. 0. 0. 0)
                 Height: =89
-                OnSelect: =Navigate(Categoria ScreenTransition.Fade)
+                OnSelect: =Navigate(Categoria ScreenTransition.Cover)
                 Size: =40
                 Text: ="Proyecto SD"
                 Width: =401
@@ -126,10 +147,10 @@
                 ZIndex: =8
 
         DataCard9 As dataCard.blankCard:
-            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderColor: =RGBA(0. 0. 0. 1)
             BorderStyle: =BorderStyle.Solid
             DisplayMode: =DisplayMode.Edit
-            Fill: =RGBA(0, 0, 0, 0)
+            Fill: =RGBA(0. 0. 0. 0)
             Height: =100
             Width: =768
             X: =0

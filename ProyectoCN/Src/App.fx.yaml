@@ -3,6 +3,7 @@ App As appinfo:
     OnStart: |-
         =Set(SelectedCategory, Blank())/
         Set(SubcategoryNames,Blank())
+    SizeBreakpoints: =[600. 900. 1200]
     StartScreen: =Categoria
     Theme: =PowerAppsTheme
 

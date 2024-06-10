@@ -1,19 +1,22 @@
 "Subcategoria_backUp As screen.'phoneLayout_FluidGridWithHeaderPageLayout_ver3.0'":
-    LoadingSpinnerColor: =RGBA(100, 118, 132, 1)
+    Fill: =RGBA(255. 255. 255. 1)
+    LoadingSpinnerColor: =RGBA(100. 118. 132. 1)
 
     Canvas3_1 As fluidGrid.fluidGridWithBlankCard:
+        BorderColor: =RGBA(0. 0. 0. 1)
         BorderThickness: =0
+        Fill: =RGBA(0. 0. 0. 0)
         Height: =1366
         Width: =Parent.Width
         Y: =RectQuickActionBar1.Y + RectQuickActionBar1.Height
         ZIndex: =3
 
         DataCard1_1 As dataCard:
-            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderColor: =RGBA(0. 0. 0. 1)
             BorderStyle: =BorderStyle.Solid
             BorderThickness: =0
             DisplayMode: =DisplayMode.Edit
-            Fill: =RGBA(0, 0, 0, 0)
+            Fill: =RGBA(0. 0. 0. 0)
             Height: =1374
             Width: =Parent.Width
             X: =0
@@ -21,9 +24,12 @@
             ZIndex: =1
 
             Label1_4 As label:
-                BorderColor: =RGBA(32, 54, 71, 1)
-                Color: =RGBA(0, 0, 0, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
+                BorderColor: =RGBA(32. 54. 71. 1)
+                Color: =RGBA(0. 0. 0. 1)
+                DisabledBorderColor: =RGBA(56. 56. 56. 1)
+                DisabledColor: =RGBA(166. 166. 166. 1)
+                DisabledFill: =RGBA(0. 0. 0. 0)
+                Fill: =RGBA(0. 0. 0. 0)
                 Height: =124
                 Size: =40
                 Text: ="Nombre de Categoría"
@@ -33,8 +39,8 @@
                 ZIndex: =1
 
             Rectangle3_5 As rectangle:
-                BorderColor: =RGBA(32, 54, 71, 1)
-                Fill: =RGBA(100, 118, 132, 1)
+                BorderColor: =RGBA(32. 54. 71. 1)
+                Fill: =RGBA(100. 118. 132. 1)
                 Height: =268
                 Width: =628
                 X: =81
@@ -42,9 +48,10 @@
                 ZIndex: =2
 
             Image3_4 As image:
-                BorderColor: =RGBA(32, 54, 71, 1)
-                DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                DisabledFill: =RGBA(244, 244, 244, 1)
+                BorderColor: =RGBA(32. 54. 71. 1)
+                DisabledBorderColor: =RGBA(166. 166. 166. 1)
+                DisabledFill: =RGBA(244. 244. 244. 1)
+                Fill: =RGBA(0. 0. 0. 0)
                 Height: =212
                 Image: =deporte
                 Width: =408
@@ -54,10 +61,12 @@
 
             Label5_5 As label:
                 Align: =Align.Center
-                BorderColor: =RGBA(32, 54, 71, 1)
-                Color: =RGBA(255, 255, 255, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                Fill: =RGBA(128, 128, 128, 1)
+                BorderColor: =RGBA(32. 54. 71. 1)
+                Color: =RGBA(255. 255. 255. 1)
+                DisabledBorderColor: =RGBA(56. 56. 56. 1)
+                DisabledColor: =RGBA(166. 166. 166. 1)
+                DisabledFill: =RGBA(0. 0. 0. 0)
+                Fill: =RGBA(128. 128. 128. 1)
                 Height: =46
                 Size: =25
                 Text: |-
@@ -69,18 +78,22 @@
                 ZIndex: =4
 
             Arrow1_4 As arrow.backArrow:
-                BorderColor: =RGBA(32, 54, 71, 1)
-                DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                Fill: =RGBA(100, 118, 132, 1)
+                BorderColor: =RGBA(32. 54. 71. 1)
+                DisabledBorderColor: =RGBA(166. 166. 166. 1)
+                DisabledFill: =RGBA(119. 119. 119. .5)
+                Fill: =RGBA(100. 118. 132. 1)
                 X: =40
                 Y: =40
                 ZIndex: =7
 
             Label2_8 As label:
                 Align: =Align.Center
-                BorderColor: =RGBA(32, 54, 71, 1)
-                Color: =RGBA(0, 0, 0, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
+                BorderColor: =RGBA(32. 54. 71. 1)
+                Color: =RGBA(0. 0. 0. 1)
+                DisabledBorderColor: =RGBA(56. 56. 56. 1)
+                DisabledColor: =RGBA(166. 166. 166. 1)
+                DisabledFill: =RGBA(0. 0. 0. 0)
+                Fill: =RGBA(0. 0. 0. 0)
                 Height: =89
                 Size: =40
                 Text: ="Proyecto SD"
@@ -90,8 +103,8 @@
                 ZIndex: =8
 
             Rectangle3_6 As rectangle:
-                BorderColor: =RGBA(32, 54, 71, 1)
-                Fill: =RGBA(100, 118, 132, 1)
+                BorderColor: =RGBA(32. 54. 71. 1)
+                Fill: =RGBA(100. 118. 132. 1)
                 Height: =268
                 Width: =628
                 X: =81
@@ -99,9 +112,10 @@
                 ZIndex: =9
 
             Image3_5 As image:
-                BorderColor: =RGBA(32, 54, 71, 1)
-                DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                DisabledFill: =RGBA(244, 244, 244, 1)
+                BorderColor: =RGBA(32. 54. 71. 1)
+                DisabledBorderColor: =RGBA(166. 166. 166. 1)
+                DisabledFill: =RGBA(244. 244. 244. 1)
+                Fill: =RGBA(0. 0. 0. 0)
                 Height: =212
                 Image: =deporte
                 Width: =408
@@ -111,10 +125,12 @@
 
             Label5_6 As label:
                 Align: =Align.Center
-                BorderColor: =RGBA(32, 54, 71, 1)
-                Color: =RGBA(255, 255, 255, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                Fill: =RGBA(128, 128, 128, 1)
+                BorderColor: =RGBA(32. 54. 71. 1)
+                Color: =RGBA(255. 255. 255. 1)
+                DisabledBorderColor: =RGBA(56. 56. 56. 1)
+                DisabledColor: =RGBA(166. 166. 166. 1)
+                DisabledFill: =RGBA(0. 0. 0. 0)
+                Fill: =RGBA(128. 128. 128. 1)
                 Height: =46
                 Size: =25
                 Text: |-
@@ -126,8 +142,8 @@
                 ZIndex: =11
 
             Rectangle3_7 As rectangle:
-                BorderColor: =RGBA(32, 54, 71, 1)
-                Fill: =RGBA(100, 118, 132, 1)
+                BorderColor: =RGBA(32. 54. 71. 1)
+                Fill: =RGBA(100. 118. 132. 1)
                 Height: =268
                 Width: =628
                 X: =81
@@ -135,9 +151,10 @@
                 ZIndex: =12
 
             Image3_6 As image:
-                BorderColor: =RGBA(32, 54, 71, 1)
-                DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                DisabledFill: =RGBA(244, 244, 244, 1)
+                BorderColor: =RGBA(32. 54. 71. 1)
+                DisabledBorderColor: =RGBA(166. 166. 166. 1)
+                DisabledFill: =RGBA(244. 244. 244. 1)
+                Fill: =RGBA(0. 0. 0. 0)
                 Height: =212
                 Image: =deporte
                 Width: =408
@@ -147,10 +164,12 @@
 
             Label5_7 As label:
                 Align: =Align.Center
-                BorderColor: =RGBA(32, 54, 71, 1)
-                Color: =RGBA(255, 255, 255, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                Fill: =RGBA(128, 128, 128, 1)
+                BorderColor: =RGBA(32. 54. 71. 1)
+                Color: =RGBA(255. 255. 255. 1)
+                DisabledBorderColor: =RGBA(56. 56. 56. 1)
+                DisabledColor: =RGBA(166. 166. 166. 1)
+                DisabledFill: =RGBA(0. 0. 0. 0)
+                Fill: =RGBA(128. 128. 128. 1)
                 Height: =46
                 Size: =25
                 Text: |-
@@ -162,10 +181,10 @@
                 ZIndex: =14
 
         DataCard9_1 As dataCard.blankCard:
-            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderColor: =RGBA(0. 0. 0. 1)
             BorderStyle: =BorderStyle.Solid
             DisplayMode: =DisplayMode.Edit
-            Fill: =RGBA(0, 0, 0, 0)
+            Fill: =RGBA(0. 0. 0. 0)
             Height: =100
             Width: =768
             X: =0

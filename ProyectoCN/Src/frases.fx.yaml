@@ -1,19 +1,22 @@
 "frases As screen.'phoneLayout_FluidGridWithHeaderPageLayout_ver3.0'":
-    LoadingSpinnerColor: =RGBA(100, 118, 132, 1)
+    Fill: =RGBA(255. 255. 255. 1)
+    LoadingSpinnerColor: =RGBA(100. 118. 132. 1)
 
     Canvas1 As fluidGrid.fluidGridWithBlankCard:
+        BorderColor: =RGBA(0. 0. 0. 1)
         BorderThickness: =0
+        Fill: =RGBA(0. 0. 0. 0)
         Height: =Parent.Height - Self.Y
         Width: =Parent.Width
         Y: =RectQuickActionBar1.Y + RectQuickActionBar1.Height
         ZIndex: =3
 
         DataCard6 As dataCard:
-            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderColor: =RGBA(0. 0. 0. 1)
             BorderStyle: =BorderStyle.Solid
             BorderThickness: =0
             DisplayMode: =DisplayMode.Edit
-            Fill: =RGBA(0, 0, 0, 0)
+            Fill: =RGBA(0. 0. 0. 0)
             Height: =1151
             Width: =Parent.Width
             X: =0
@@ -21,18 +24,22 @@
             ZIndex: =1
 
             Arrow1_1 As arrow.backArrow:
-                BorderColor: =RGBA(32, 54, 71, 1)
-                DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                Fill: =RGBA(100, 118, 132, 1)
+                BorderColor: =RGBA(32. 54. 71. 1)
+                DisabledBorderColor: =RGBA(166. 166. 166. 1)
+                DisabledFill: =RGBA(119. 119. 119. .5)
+                Fill: =RGBA(100. 118. 132. 1)
                 X: =40
                 Y: =40
                 ZIndex: =1
 
             Label2_4 As label:
                 Align: =Align.Center
-                BorderColor: =RGBA(32, 54, 71, 1)
-                Color: =RGBA(0, 0, 0, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
+                BorderColor: =RGBA(32. 54. 71. 1)
+                Color: =RGBA(0. 0. 0. 1)
+                DisabledBorderColor: =RGBA(56. 56. 56. 1)
+                DisabledColor: =RGBA(166. 166. 166. 1)
+                DisabledFill: =RGBA(0. 0. 0. 0)
+                Fill: =RGBA(0. 0. 0. 0)
                 Height: =89
                 Size: =40
                 Text: ="Proyecto SD"
@@ -42,8 +49,8 @@
                 ZIndex: =2
 
             Rectangle1_6 As rectangle:
-                BorderColor: =RGBA(32, 54, 71, 1)
-                Fill: =RGBA(100, 118, 132, 1)
+                BorderColor: =RGBA(32. 54. 71. 1)
+                Fill: =RGBA(100. 118. 132. 1)
                 Height: =203
                 Width: =682
                 X: =45
@@ -51,9 +58,10 @@
                 ZIndex: =3
 
             Image1_7 As image:
-                BorderColor: =RGBA(32, 54, 71, 1)
-                DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                DisabledFill: =RGBA(244, 244, 244, 1)
+                BorderColor: =RGBA(32. 54. 71. 1)
+                DisabledBorderColor: =RGBA(166. 166. 166. 1)
+                DisabledFill: =RGBA(244. 244. 244. 1)
+                Fill: =RGBA(0. 0. 0. 0)
                 Height: =147
                 Image: =semana
                 Width: =327
@@ -63,10 +71,12 @@
 
             Label3_7 As label:
                 Align: =Align.Center
-                BorderColor: =RGBA(32, 54, 71, 1)
-                Color: =RGBA(255, 255, 255, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                Fill: =RGBA(128, 128, 128, 1)
+                BorderColor: =RGBA(32. 54. 71. 1)
+                Color: =RGBA(255. 255. 255. 1)
+                DisabledBorderColor: =RGBA(56. 56. 56. 1)
+                DisabledColor: =RGBA(166. 166. 166. 1)
+                DisabledFill: =RGBA(0. 0. 0. 0)
+                Fill: =RGBA(128. 128. 128. 1)
                 Height: =52
                 Size: =25
                 Text: ="Picto seleccionado"
@@ -77,10 +87,12 @@
 
             Label3_8 As label:
                 Align: =Align.Center
-                BorderColor: =RGBA(32, 54, 71, 1)
-                Color: =RGBA(255, 255, 255, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                Fill: =RGBA(128, 128, 128, 1)
+                BorderColor: =RGBA(32. 54. 71. 1)
+                Color: =RGBA(255. 255. 255. 1)
+                DisabledBorderColor: =RGBA(56. 56. 56. 1)
+                DisabledColor: =RGBA(166. 166. 166. 1)
+                DisabledFill: =RGBA(0. 0. 0. 0)
+                Fill: =RGBA(128. 128. 128. 1)
                 Height: =67
                 Size: =22
                 Text: ="P.Añadida"
@@ -91,10 +103,12 @@
 
             Label3_9 As label:
                 Align: =Align.Center
-                BorderColor: =RGBA(32, 54, 71, 1)
-                Color: =RGBA(255, 255, 255, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                Fill: =RGBA(128, 128, 128, 1)
+                BorderColor: =RGBA(32. 54. 71. 1)
+                Color: =RGBA(255. 255. 255. 1)
+                DisabledBorderColor: =RGBA(56. 56. 56. 1)
+                DisabledColor: =RGBA(166. 166. 166. 1)
+                DisabledFill: =RGBA(0. 0. 0. 0)
+                Fill: =RGBA(128. 128. 128. 1)
                 Height: =67
                 Size: =22
                 Text: ="Palabra picto"
@@ -105,10 +119,12 @@
 
             Label3_16 As label:
                 Align: =Align.Center
-                BorderColor: =RGBA(32, 54, 71, 1)
-                Color: =RGBA(255, 255, 255, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                Fill: =RGBA(128, 128, 128, 1)
+                BorderColor: =RGBA(32. 54. 71. 1)
+                Color: =RGBA(255. 255. 255. 1)
+                DisabledBorderColor: =RGBA(56. 56. 56. 1)
+                DisabledColor: =RGBA(166. 166. 166. 1)
+                DisabledFill: =RGBA(0. 0. 0. 0)
+                Fill: =RGBA(128. 128. 128. 1)
                 Height: =92
                 Size: =22
                 Text: ="PALABRA AÑADIR"
@@ -119,10 +135,12 @@
 
             Label3_17 As label:
                 Align: =Align.Center
-                BorderColor: =RGBA(32, 54, 71, 1)
-                Color: =RGBA(255, 255, 255, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                Fill: =RGBA(128, 128, 128, 1)
+                BorderColor: =RGBA(32. 54. 71. 1)
+                Color: =RGBA(255. 255. 255. 1)
+                DisabledBorderColor: =RGBA(56. 56. 56. 1)
+                DisabledColor: =RGBA(166. 166. 166. 1)
+                DisabledFill: =RGBA(0. 0. 0. 0)
+                Fill: =RGBA(128. 128. 128. 1)
                 Height: =92
                 Size: =22
                 Text: ="PALABRA AÑADIR"
@@ -133,10 +151,12 @@
 
             Label3_18 As label:
                 Align: =Align.Center
-                BorderColor: =RGBA(32, 54, 71, 1)
-                Color: =RGBA(255, 255, 255, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                Fill: =RGBA(128, 128, 128, 1)
+                BorderColor: =RGBA(32. 54. 71. 1)
+                Color: =RGBA(255. 255. 255. 1)
+                DisabledBorderColor: =RGBA(56. 56. 56. 1)
+                DisabledColor: =RGBA(166. 166. 166. 1)
+                DisabledFill: =RGBA(0. 0. 0. 0)
+                Fill: =RGBA(128. 128. 128. 1)
                 Height: =92
                 Size: =22
                 Text: ="PALABRA AÑADIR"
@@ -147,10 +167,12 @@
 
             Label3_19 As label:
                 Align: =Align.Center
-                BorderColor: =RGBA(32, 54, 71, 1)
-                Color: =RGBA(255, 255, 255, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                Fill: =RGBA(128, 128, 128, 1)
+                BorderColor: =RGBA(32. 54. 71. 1)
+                Color: =RGBA(255. 255. 255. 1)
+                DisabledBorderColor: =RGBA(56. 56. 56. 1)
+                DisabledColor: =RGBA(166. 166. 166. 1)
+                DisabledFill: =RGBA(0. 0. 0. 0)
+                Fill: =RGBA(128. 128. 128. 1)
                 Height: =92
                 Size: =22
                 Text: ="PALABRA AÑADIR"

@@ -1,19 +1,22 @@
 "Pictogramas_backUp As screen.'phoneLayout_FluidGridWithHeaderPageLayout_ver3.0'":
-    LoadingSpinnerColor: =RGBA(100, 118, 132, 1)
+    Fill: =RGBA(255. 255. 255. 1)
+    LoadingSpinnerColor: =RGBA(100. 118. 132. 1)
 
     Canvas4_1 As fluidGrid.fluidGridWithBlankCard:
+        BorderColor: =RGBA(0. 0. 0. 1)
         BorderThickness: =0
+        Fill: =RGBA(0. 0. 0. 0)
         Height: =Parent.Height - Self.Y
         Width: =Parent.Width
         Y: =RectQuickActionBar2.Y + RectQuickActionBar2.Height
         ZIndex: =3
 
         DataCard4_1 As dataCard:
-            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderColor: =RGBA(0. 0. 0. 1)
             BorderStyle: =BorderStyle.Solid
             BorderThickness: =0
             DisplayMode: =DisplayMode.Edit
-            Fill: =RGBA(0, 0, 0, 0)
+            Fill: =RGBA(0. 0. 0. 0)
             Height: =Parent.Height - 100
             Width: =Parent.Width
             X: =0
@@ -22,9 +25,12 @@
 
             Label2_9 As label:
                 Align: =Align.Center
-                BorderColor: =RGBA(32, 54, 71, 1)
-                Color: =RGBA(0, 0, 0, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
+                BorderColor: =RGBA(32. 54. 71. 1)
+                Color: =RGBA(0. 0. 0. 1)
+                DisabledBorderColor: =RGBA(56. 56. 56. 1)
+                DisabledColor: =RGBA(166. 166. 166. 1)
+                DisabledFill: =RGBA(0. 0. 0. 0)
+                Fill: =RGBA(0. 0. 0. 0)
                 Height: =89
                 Size: =40
                 Text: ="Proyecto SD"
@@ -34,14 +40,15 @@
                 ZIndex: =1
 
             Button1_4 As button:
-                DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                DisabledFill: =RGBA(244, 244, 244, 1)
-                Fill: =RGBA(100, 118, 132, 1)
+                Color: =RGBA(255. 255. 255. 1)
+                DisabledBorderColor: =RGBA(166. 166. 166. 1)
+                DisabledColor: =RGBA(166. 166. 166. 1)
+                DisabledFill: =RGBA(244. 244. 244. 1)
+                Fill: =RGBA(100. 118. 132. 1)
                 FontWeight: =FontWeight.Semibold
                 Height: =80
-                HoverColor: =RGBA(255, 255, 255, 1)
-                HoverFill: =ColorFade(RGBA(100, 118, 132, 1), -20%)
+                HoverColor: =RGBA(255. 255. 255. 1)
+                HoverFill: =ColorFade(RGBA(100. 118. 132. 1), -20%)
                 Size: =25
                 Text: ="Añadir tarjeta  +"
                 Width: =305
@@ -50,14 +57,15 @@
                 ZIndex: =2
 
             Button2_5 As button:
-                DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                DisabledFill: =RGBA(244, 244, 244, 1)
-                Fill: =RGBA(100, 118, 132, 1)
+                Color: =RGBA(255. 255. 255. 1)
+                DisabledBorderColor: =RGBA(166. 166. 166. 1)
+                DisabledColor: =RGBA(166. 166. 166. 1)
+                DisabledFill: =RGBA(244. 244. 244. 1)
+                Fill: =RGBA(100. 118. 132. 1)
                 FontWeight: =FontWeight.Semibold
                 Height: =71
-                HoverColor: =RGBA(255, 255, 255, 1)
-                HoverFill: =ColorFade(RGBA(100, 118, 132, 1), -20%)
+                HoverColor: =RGBA(255. 255. 255. 1)
+                HoverFill: =ColorFade(RGBA(100. 118. 132. 1), -20%)
                 Size: =25
                 Text: ="Filtrar"
                 Width: =212
@@ -66,9 +74,12 @@
                 ZIndex: =3
 
             Label1_5 As label:
-                BorderColor: =RGBA(32, 54, 71, 1)
-                Color: =RGBA(0, 0, 0, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
+                BorderColor: =RGBA(32. 54. 71. 1)
+                Color: =RGBA(0. 0. 0. 1)
+                DisabledBorderColor: =RGBA(56. 56. 56. 1)
+                DisabledColor: =RGBA(166. 166. 166. 1)
+                DisabledFill: =RGBA(0. 0. 0. 0)
+                Fill: =RGBA(0. 0. 0. 0)
                 Height: =101
                 Size: =40
                 Text: ="Nombre de Categoría"
@@ -78,16 +89,17 @@
                 ZIndex: =17
 
             Arrow1_5 As arrow.backArrow:
-                BorderColor: =RGBA(32, 54, 71, 1)
-                DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                Fill: =RGBA(100, 118, 132, 1)
+                BorderColor: =RGBA(32. 54. 71. 1)
+                DisabledBorderColor: =RGBA(166. 166. 166. 1)
+                DisabledFill: =RGBA(119. 119. 119. .5)
+                Fill: =RGBA(100. 118. 132. 1)
                 X: =60
                 Y: =60
                 ZIndex: =18
 
             Rectangle1_17 As rectangle:
-                BorderColor: =RGBA(32, 54, 71, 1)
-                Fill: =RGBA(100, 118, 132, 1)
+                BorderColor: =RGBA(32. 54. 71. 1)
+                Fill: =RGBA(100. 118. 132. 1)
                 Height: =329
                 Width: =321
                 X: =410
@@ -95,9 +107,10 @@
                 ZIndex: =19
 
             Image1_20 As image:
-                BorderColor: =RGBA(32, 54, 71, 1)
-                DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                DisabledFill: =RGBA(244, 244, 244, 1)
+                BorderColor: =RGBA(32. 54. 71. 1)
+                DisabledBorderColor: =RGBA(166. 166. 166. 1)
+                DisabledFill: =RGBA(244. 244. 244. 1)
+                Fill: =RGBA(0. 0. 0. 0)
                 Height: =187
                 Image: =semana
                 Width: =194
@@ -107,10 +120,12 @@
 
             Label3_14 As label:
                 Align: =Align.Center
-                BorderColor: =RGBA(32, 54, 71, 1)
-                Color: =RGBA(255, 255, 255, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                Fill: =RGBA(128, 128, 128, 1)
+                BorderColor: =RGBA(32. 54. 71. 1)
+                Color: =RGBA(255. 255. 255. 1)
+                DisabledBorderColor: =RGBA(56. 56. 56. 1)
+                DisabledColor: =RGBA(166. 166. 166. 1)
+                DisabledFill: =RGBA(0. 0. 0. 0)
+                Fill: =RGBA(128. 128. 128. 1)
                 Height: =53
                 Size: =25
                 Text: ="Picto Calendario 1"
@@ -120,8 +135,8 @@
                 ZIndex: =21
 
             Rectangle1_16 As rectangle:
-                BorderColor: =RGBA(32, 54, 71, 1)
-                Fill: =RGBA(100, 118, 132, 1)
+                BorderColor: =RGBA(32. 54. 71. 1)
+                Fill: =RGBA(100. 118. 132. 1)
                 Height: =329
                 Width: =321
                 X: =40
@@ -129,9 +144,10 @@
                 ZIndex: =22
 
             Image1_19 As image:
-                BorderColor: =RGBA(32, 54, 71, 1)
-                DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                DisabledFill: =RGBA(244, 244, 244, 1)
+                BorderColor: =RGBA(32. 54. 71. 1)
+                DisabledBorderColor: =RGBA(166. 166. 166. 1)
+                DisabledFill: =RGBA(244. 244. 244. 1)
+                Fill: =RGBA(0. 0. 0. 0)
                 Height: =187
                 Image: =semana
                 Width: =194
@@ -141,10 +157,12 @@
 
             Label3_23 As label:
                 Align: =Align.Center
-                BorderColor: =RGBA(32, 54, 71, 1)
-                Color: =RGBA(255, 255, 255, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                Fill: =RGBA(128, 128, 128, 1)
+                BorderColor: =RGBA(32. 54. 71. 1)
+                Color: =RGBA(255. 255. 255. 1)
+                DisabledBorderColor: =RGBA(56. 56. 56. 1)
+                DisabledColor: =RGBA(166. 166. 166. 1)
+                DisabledFill: =RGBA(0. 0. 0. 0)
+                Fill: =RGBA(128. 128. 128. 1)
                 Height: =53
                 Size: =25
                 Text: ="Picto Calendario 1"
@@ -154,8 +172,8 @@
                 ZIndex: =24
 
             Rectangle1_19 As rectangle:
-                BorderColor: =RGBA(32, 54, 71, 1)
-                Fill: =RGBA(100, 118, 132, 1)
+                BorderColor: =RGBA(32. 54. 71. 1)
+                Fill: =RGBA(100. 118. 132. 1)
                 Height: =329
                 Width: =321
                 X: =409
@@ -163,9 +181,10 @@
                 ZIndex: =25
 
             Image1_22 As image:
-                BorderColor: =RGBA(32, 54, 71, 1)
-                DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                DisabledFill: =RGBA(244, 244, 244, 1)
+                BorderColor: =RGBA(32. 54. 71. 1)
+                DisabledBorderColor: =RGBA(166. 166. 166. 1)
+                DisabledFill: =RGBA(244. 244. 244. 1)
+                Fill: =RGBA(0. 0. 0. 0)
                 Height: =187
                 Image: =semana
                 Width: =194
@@ -175,10 +194,12 @@
 
             Label3_25 As label:
                 Align: =Align.Center
-                BorderColor: =RGBA(32, 54, 71, 1)
-                Color: =RGBA(255, 255, 255, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                Fill: =RGBA(128, 128, 128, 1)
+                BorderColor: =RGBA(32. 54. 71. 1)
+                Color: =RGBA(255. 255. 255. 1)
+                DisabledBorderColor: =RGBA(56. 56. 56. 1)
+                DisabledColor: =RGBA(166. 166. 166. 1)
+                DisabledFill: =RGBA(0. 0. 0. 0)
+                Fill: =RGBA(128. 128. 128. 1)
                 Height: =53
                 Size: =25
                 Text: ="Picto Calendario 1"
@@ -188,8 +209,8 @@
                 ZIndex: =27
 
             Rectangle1_18 As rectangle:
-                BorderColor: =RGBA(32, 54, 71, 1)
-                Fill: =RGBA(100, 118, 132, 1)
+                BorderColor: =RGBA(32. 54. 71. 1)
+                Fill: =RGBA(100. 118. 132. 1)
                 Height: =329
                 Width: =321
                 X: =39
@@ -197,9 +218,10 @@
                 ZIndex: =28
 
             Image1_21 As image:
-                BorderColor: =RGBA(32, 54, 71, 1)
-                DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                DisabledFill: =RGBA(244, 244, 244, 1)
+                BorderColor: =RGBA(32. 54. 71. 1)
+                DisabledBorderColor: =RGBA(166. 166. 166. 1)
+                DisabledFill: =RGBA(244. 244. 244. 1)
+                Fill: =RGBA(0. 0. 0. 0)
                 Height: =187
                 Image: =semana
                 Width: =194
@@ -209,10 +231,12 @@
 
             Label3_24 As label:
                 Align: =Align.Center
-                BorderColor: =RGBA(32, 54, 71, 1)
-                Color: =RGBA(255, 255, 255, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                Fill: =RGBA(128, 128, 128, 1)
+                BorderColor: =RGBA(32. 54. 71. 1)
+                Color: =RGBA(255. 255. 255. 1)
+                DisabledBorderColor: =RGBA(56. 56. 56. 1)
+                DisabledColor: =RGBA(166. 166. 166. 1)
+                DisabledFill: =RGBA(0. 0. 0. 0)
+                Fill: =RGBA(128. 128. 128. 1)
                 Height: =53
                 Size: =25
                 Text: ="Picto Calendario 1"

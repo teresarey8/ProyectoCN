@@ -1178,10 +1178,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 4,
+                  "charLength": 5,
                   "charOffset": 36,
                   "snippet": {
-                    "text": "Fade"
+                    "text": "Cover"
                   }
                 }
               },
@@ -1216,7 +1216,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 40,
+                  "charOffset": 41,
                   "snippet": {
                     "text": ")"
                   }
@@ -1252,7 +1252,7 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charOffset": 41,
+                  "charOffset": 42,
                   "snippet": {
                     "text": ""
                   }
@@ -1292,10 +1292,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 4,
+                  "charLength": 5,
                   "charOffset": 36,
                   "snippet": {
-                    "text": "Fade"
+                    "text": "Cover"
                   }
                 }
               },
@@ -2329,34 +2329,34 @@
               "id": "app-UnusedVariables",
               "messageStrings": {
                 "issue": {
-                  "text": "Unused variable"
+                  "text": "Variable no utilizada"
                 }
               },
               "properties": {
                 "componentType": "app",
                 "howToFix": [
-                  "Remove the unused variable."
+                  "Quite la variable no utilizada."
                 ],
                 "level": "Medium",
                 "primaryCategory": "performance",
-                "whyFix": "This variable is declared but is not referenced by any control, so it is not needed."
+                "whyFix": "Esta variable está declarada, pero ningún control hace referencia a ella, por lo que no es necesaria."
               }
             },
             {
               "id": "app-UnusedMediaResources",
               "messageStrings": {
                 "issue": {
-                  "text": "Unused media files"
+                  "text": "Archivos multimedia sin usar"
                 }
               },
               "properties": {
                 "componentType": "app",
                 "howToFix": [
-                  "Remove the unused media file in the Media pane."
+                  "Quite el archivo multimedia que no se use en el panel Medios."
                 ],
                 "level": "Medium",
                 "primaryCategory": "performance",
-                "whyFix": "This media file is not referenced by any control formulas so it is not needed. Removing it will improve performance."
+                "whyFix": "No hay ninguna fórmula de control que haga referencia a este archivo multimedia, por lo que no es necesario. Si se quita, mejorará el rendimiento."
               }
             }
           ],
